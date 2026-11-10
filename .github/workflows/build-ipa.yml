@@ -1,0 +1,170 @@
+name: IPA bauen
+
+on:
+  push:
+    branches: [main]
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+concurrency:
+  group: build-ipa-${{ github.ref }}
+  cancel-in-progress: true
+
+jobs:
+  build:
+    runs-on: macos-latest
+    timeout-minutes: 45
+    env:
+      SUMUP_AFFILIATE_KEY: ${{ secrets.SUMUP_AFFILIATE_KEY }}
+      BUNDLE_ID: ${{ vars.BUNDLE_ID || 'de.femboysupportnetwork.kasse' }}
+      P12_BASE64: ${{ secrets.IOS_CERTIFICATE_P12_BASE64 }}
+      P12_PASSWORD: ${{ secrets.IOS_CERTIFICATE_PASSWORD }}
+      PROFILE_BASE64: ${{ secrets.IOS_PROVISIONING_PROFILE_BASE64 }}
+    defaults:
+      run:
+        working-directory: FSNKasse
+
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: maxim-lobanov/setup-xcode@v1
+        with:
+          xcode-version: latest-stable
+
+      - name: Projekt erzeugen
+        run: |
+          brew install xcodegen
+          xcodegen generate
+          xcodebuild -version
+
+      - name: Unsignierte IPA bauen
+        run: |
+          set -euo pipefail
+          mkdir -p build
+          xcodebuild \
+            -project FSNKasse.xcodeproj \
+            -scheme FSNKasse \
+            -configuration Release \
+            -sdk iphoneos \
+            -destination 'generic/platform=iOS' \
+            -derivedDataPath build/unsigned \
+            PRODUCT_BUNDLE_IDENTIFIER="$BUNDLE_ID" \
+            SUMUP_AFFILIATE_KEY="$SUMUP_AFFILIATE_KEY" \
+            CODE_SIGNING_ALLOWED=NO \
+            CODE_SIGNING_REQUIRED=NO \
+            CODE_SIGN_IDENTITY="" \
+            build | tee build/unsigned.log | grep -E "error:|warning: .*FSNKasse|BUILD (SUCCEEDED|FAILED)" || true
+          test -d build/unsigned/Build/Products/Release-iphoneos/FSNKasse.app
+          mkdir -p ../dist/Payload
+          cp -R build/unsigned/Build/Products/Release-iphoneos/FSNKasse.app ../dist/Payload/
+          (cd ../dist && zip -qry FSNKasse-unsigniert.ipa Payload && rm -rf Payload)
+
+      - name: Signierte IPA bauen
+        if: env.P12_BASE64 != '' && env.PROFILE_BASE64 != ''
+        run: |
+          set -euo pipefail
+          KEYCHAIN="$RUNNER_TEMP/signing.keychain-db"
+          KEYCHAIN_PASSWORD="$(uuidgen)"
+          echo "$P12_BASE64" | base64 --decode > "$RUNNER_TEMP/cert.p12"
+          echo "$PROFILE_BASE64" | base64 --decode > "$RUNNER_TEMP/profile.mobileprovision"
+
+          security create-keychain -p "$KEYCHAIN_PASSWORD" "$KEYCHAIN"
+          security set-keychain-settings -lut 21600 "$KEYCHAIN"
+          security unlock-keychain -p "$KEYCHAIN_PASSWORD" "$KEYCHAIN"
+          security import "$RUNNER_TEMP/cert.p12" -P "$P12_PASSWORD" -A -t cert -f pkcs12 -k "$KEYCHAIN"
+          security set-key-partition-list -S apple-tool:,apple: -k "$KEYCHAIN_PASSWORD" "$KEYCHAIN" > /dev/null
+          security list-keychains -d user -s "$KEYCHAIN" $(security list-keychains -d user | tr -d '"')
+          IDENTITY="$(security find-identity -v -p codesigning "$KEYCHAIN" | head -n 1 | sed -E 's/.*"(.*)".*/\1/')"
+
+          security cms -D -i "$RUNNER_TEMP/profile.mobileprovision" > "$RUNNER_TEMP/profile.plist"
+          PROFILE_UUID="$(/usr/libexec/PlistBuddy -c 'Print UUID' "$RUNNER_TEMP/profile.plist")"
+          TEAM_ID="$(/usr/libexec/PlistBuddy -c 'Print TeamIdentifier:0' "$RUNNER_TEMP/profile.plist")"
+          APP_ID="$(/usr/libexec/PlistBuddy -c 'Print Entitlements:application-identifier' "$RUNNER_TEMP/profile.plist")"
+          PROFILE_BUNDLE_ID="${APP_ID#*.}"
+          if [[ "$PROFILE_BUNDLE_ID" != *"*"* ]]; then BUNDLE_ID="$PROFILE_BUNDLE_ID"; fi
+
+          if /usr/libexec/PlistBuddy -c 'Print ProvisionedDevices' "$RUNNER_TEMP/profile.plist" > /dev/null 2>&1; then
+            if [ "$(/usr/libexec/PlistBuddy -c 'Print Entitlements:get-task-allow' "$RUNNER_TEMP/profile.plist")" = "true" ]; then
+              METHOD=development
+            else
+              METHOD=ad-hoc
+            fi
+          elif /usr/libexec/PlistBuddy -c 'Print ProvisionsAllDevices' "$RUNNER_TEMP/profile.plist" > /dev/null 2>&1; then
+            METHOD=enterprise
+          else
+            METHOD=app-store
+          fi
+          echo "Signiere $BUNDLE_ID mit \"$IDENTITY\" ($METHOD)"
+
+          for dir in "$HOME/Library/MobileDevice/Provisioning Profiles" "$HOME/Library/Developer/Xcode/UserData/Provisioning Profiles"; do
+            mkdir -p "$dir"
+            cp "$RUNNER_TEMP/profile.mobileprovision" "$dir/$PROFILE_UUID.mobileprovision"
+          done
+
+          xcodebuild \
+            -project FSNKasse.xcodeproj \
+            -scheme FSNKasse \
+            -configuration Release \
+            -destination 'generic/platform=iOS' \
+            -archivePath build/FSNKasse.xcarchive \
+            -derivedDataPath build/signed \
+            PRODUCT_BUNDLE_IDENTIFIER="$BUNDLE_ID" \
+            SUMUP_AFFILIATE_KEY="$SUMUP_AFFILIATE_KEY" \
+            DEVELOPMENT_TEAM="$TEAM_ID" \
+            CODE_SIGN_STYLE=Manual \
+            CODE_SIGN_IDENTITY="$IDENTITY" \
+            PROVISIONING_PROFILE_SPECIFIER="$PROFILE_UUID" \
+            OTHER_CODE_SIGN_FLAGS="--keychain $KEYCHAIN" \
+            archive | tee build/signed.log | grep -E "error:|ARCHIVE (SUCCEEDED|FAILED)" || true
+          test -d build/FSNKasse.xcarchive
+
+          cat > "$RUNNER_TEMP/ExportOptions.plist" <<EOF
+          <?xml version="1.0" encoding="UTF-8"?>
+          <!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+          <plist version="1.0">
+          <dict>
+            <key>method</key><string>$METHOD</string>
+            <key>teamID</key><string>$TEAM_ID</string>
+            <key>signingStyle</key><string>manual</string>
+            <key>signingCertificate</key><string>$IDENTITY</string>
+            <key>provisioningProfiles</key>
+            <dict><key>$BUNDLE_ID</key><string>$PROFILE_UUID</string></dict>
+            <key>compileBitcode</key><false/>
+            <key>stripSwiftSymbols</key><true/>
+          </dict>
+          </plist>
+          EOF
+
+          xcodebuild -exportArchive \
+            -archivePath build/FSNKasse.xcarchive \
+            -exportPath build/export \
+            -exportOptionsPlist "$RUNNER_TEMP/ExportOptions.plist"
+          cp build/export/*.ipa ../dist/FSNKasse.ipa
+
+      - name: Build-Logs bei Fehler hochladen
+        if: failure()
+        uses: actions/upload-artifact@v4
+        with:
+          name: build-logs
+          path: FSNKasse/build/*.log
+
+      - uses: actions/upload-artifact@v4
+        with:
+          name: FSNKasse-ipa
+          path: dist/*.ipa
+          if-no-files-found: error
+
+      - name: Release veröffentlichen
+        uses: softprops/action-gh-release@v2
+        with:
+          tag_name: build-${{ github.run_number }}
+          name: FSN Kasse Build ${{ github.run_number }}
+          body: |
+            Automatisch gebaut aus ${{ github.sha }}.
+
+            FSNKasse-unsigniert.ipa: zum Installieren über AltStore, Sideloadly oder TrollStore.
+            FSNKasse.ipa (nur wenn Signatur-Secrets gesetzt sind): direkt installierbar auf den Geräten aus dem Provisioning-Profil.
+          files: dist/*.ipa
+          make_latest: true

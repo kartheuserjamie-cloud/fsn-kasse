@@ -1,0 +1,116 @@
+/* smartling.instruction_comments_enabled = on */
+
+"circuit_navigationHeader_addButton_title" = "Dodaj";
+
+"circuit_navigationHeader_backButton_title" = "Natrag";
+
+"circuit_navigationHeader_cancelButton_title" = "Otkaži";
+
+"circuit_navigationHeader_chatButton_title" = "Čavrljanje";
+
+"circuit_navigationHeader_closeButton_title" = "Zatvori";
+
+"circuit_navigationHeader_deleteButton_title" = "Izbriši";
+
+"circuit_navigationHeader_discountButton_title" = "Primijeni popust";
+
+"circuit_navigationHeader_documentButton_title" = "Dokument";
+
+"circuit_navigationHeader_editButton_title" = "Uredi";
+
+"circuit_navigationHeader_editCategoriesButton_title" = "Uredi kategorije";
+
+"circuit_navigationHeader_editCategories_title" = "Uredite kategorije";
+
+"circuit_navigationHeader_filterButton_title" = "Filtar";
+
+"circuit_navigationHeader_flashButton_off_title" = "Isključi bljeskalicu";
+
+"circuit_navigationHeader_flashButton_on_title" = "Uključi bljeskalicu";
+
+"circuit_navigationHeader_helpButton_title" = "Pomoć";
+
+"circuit_navigationHeader_hideButton_title" = "Sakrij";
+
+"circuit_navigationHeader_historyButton_title" = "Povijest";
+
+"circuit_navigationHeader_inboxButton_title" = "Pristigla pošta";
+
+"circuit_navigationHeader_mailButton_title" = "Pošta";
+
+"circuit_navigationHeader_minimizeButton_title" = "Minimiziraj";
+
+"circuit_navigationHeader_moreButton_title" = "Više";
+
+"circuit_navigationHeader_printButton_title" = "Ispis";
+
+"circuit_navigationHeader_refreshButton_title" = "Osvježi";
+
+"circuit_navigationHeader_reportButton_title" = "Izvješće";
+
+"circuit_navigationHeader_calendarButton_title" = "Kalendar";
+
+"circuit_navigationHeader_saveButton_title" = "Spremi";
+
+"circuit_navigationHeader_scanBarcodeButton_title" = "Skeniraj bar kod";
+
+"circuit_navigationHeader_scanButton_title" = "Skeniraj";
+
+"circuit_navigationHeader_scanQRCodeButton_title" = "Skeniraj QR kôd";
+
+"circuit_navigationHeader_searchButton_title" = "Pretraži";
+
+"circuit_navigationHeader_settingsButton_title" = "Postavke";
+
+"circuit_navigationHeader_shareButton_title" = "Podijeli";
+
+"circuit_navigationHeader_showButton_title" = "Prikaži";
+
+"circuit_segmentedProgressBar_progress_accessibility_label" = "Napredak";
+
+"circuit_segmentedProgressBar_progress_accessibility_value" = "Korak %1$d od %2$d";
+
+"circuit_spinner_loading_accessibility_label" = "Učitavanje";
+
+"circuit_spinner_loading_accessibility_value" = "U tijeku";
+
+"circuit_tierIndicator_plusTier_accessibilityLabel" = "Razina Plus";
+
+"circuit_navigationHeader_archiveButton_title" = "Arhiviraj";
+
+"circuit_barcodeScanner_instructionText_scanBarcode_title" = "Skenirajte bar kôd";
+
+"circuit_barcodeScanner_instructionText_scanBarcodeOrQRCode_title" = "Skenirajte QR kôd ili bar kôd";
+
+"circuit_barcodeScanner_instructionText_scanQRCode_title" = "Skenirajte QR kôd";
+
+"circuit_textInput_guidance_optionalAnnotation" = " (nije obavezno)";
+
+"circuit_textInput_subtitle_characterCountValue" = "%1$d / %2$d znakova";
+
+"circuit_textInput_clearButton_accessibilityLabel" = "Jasan tekst";
+
+"circuit_textInput_validation_required_error" = "Molimo unesite vrijednost";
+
+"circuit_textInput_validation_lengthMinimum_error" = "Unesite najmanje ovoliko znakova: %1$d";
+
+"circuit_textInput_validation_lengthMaximum_error" = "Unesite ovoliko znakova: %1$d ili manje";
+
+"circuit_textInput_validation_lengthExact_error" = "Unesite točno ovoliko znakova: %1$d";
+
+"circuit_textInput_validation_lengthRange_error" = "Unesite od %1$d do %2$d znakova";
+
+"circuit_textInput_validation_numericRange_error" = "Unesite vrijednost od %1$@ do %2$@";
+
+"circuit_textInput_validation_creditCard_error" = "Unesite važeći broj kartice";
+
+"circuit_textInput_validation_allowedCharacterSet_error" = "Koristite samo dopuštene znakove";
+
+"circuit_textInput_validation_equality_error" = "Vrijednosti se moraju podudarati";
+
+"circuit_textInput_validation_predicate_error" = "Unesite važeću vrijednost";
+
+"circuit_textInput_validation_regex_error" = "Unesite tekst u ispravnom formatu";
+
+"circuit_navigationHeader_rewardsButton_title" = "Nagrade";
+

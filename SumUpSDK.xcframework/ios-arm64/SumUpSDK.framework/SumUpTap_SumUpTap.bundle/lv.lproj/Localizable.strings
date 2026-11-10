@@ -1,0 +1,397 @@
+/* upper label in failure view if payment status is unknown and server response corrupted */
+"TransactionStatusUnclearSublabel" = "Mēs zaudējām savienojumu ar SumUp serveri";
+
+/* lower label in failure view if payment status is unknown and server response corrupted */
+"TransactionStatusUnclearSubsublabel" = "Pirms mēģināt vēlreiz, lūdzu, pārbaudi šī maksājuma statusu savā maksājumu vēsturē.";
+
+/* title in failure view if payment status is unknown and server response corrupted */
+"TransactionStatusUnclearTitle" = "Savienojuma kļūme";
+
+"sumup_btn_cancel" = "Atcelt";
+
+/* Synonym: Validate / Confirm */
+"sumup_btn_done" = "Gatavs";
+
+/* PIN+ setup: Button text to exit the setup process after success */
+"sumup_btn_next" = "Tālāk";
+
+"sumup_btn_ok" = "LABI";
+
+/* Button title to close current opened product on the Home Screen. */
+"sumup_home_close_btn" = "Aizvērt";
+
+/* Accessibility title for Close button of Stories component */
+"sumup_stories_component_shared_close_button_accessibility_title" = "Close";
+
+/* Button title for the error state of Stories component. Common case: trigger reload */
+"sumup_stories_component_shared_error_action_button_title" = "Reload";
+
+/* General title for error state of Stories component */
+"sumup_stories_component_shared_error_title" = "Error";
+
+/* Accessibility title for Next Story button of Stories component */
+"sumup_stories_component_shared_next_button_accessibility_title" = "Next";
+
+/* Accessibility title for Pause button of Stories component */
+"sumup_stories_component_shared_pause_button_accessibility_title" = "Pause";
+
+/* Accessibility title for Play button of Stories component */
+"sumup_stories_component_shared_play_button_accessibility_title" = "Play";
+
+/* Accessibility title for Previous Story button of Stories component */
+"sumup_stories_component_shared_previous_button_accessibility_title" = "Previous";
+
+/* Accessibility title for timeline description of Stories component */
+"sumup_stories_component_shared_timeline_description_accessibility_title" = "Playing story %1$d of %2$d";
+
+"sumup_tap_activation_continue_button" = "Turpināt";
+
+"sumup_tap_activation_finished_btn_learn_more" = "Uzzināt vairāk";
+
+"sumup_tap_activation_finished_btn_try_now" = "Izmēģināt tagad";
+
+"sumup_tap_activation_finished_subtitle" = "Sāc pieņemt bezkontakta maksājumus ar savu iPhone";
+
+"sumup_tap_activation_finished_title" = "Viss ir paveikts";
+
+"sumup_tap_activation_intro_btn_set_up_now" = "Iestatīt tagad";
+
+"sumup_tap_activation_intro_btn_start" = "Sākt";
+
+"sumup_tap_activation_intro_new_subtitle" = "Sāc pieņemt bezkontakta maksājumus klātienē, izmantojot tikai savu iPhone.";
+
+"sumup_tap_activation_intro_new_title" = "Pārdod, kur vien vēlaties.\nKaršu terminālis nav nepieciešams.";
+
+"sumup_tap_activation_intro_screen_title" = "Tap to Pay iPhone ierīcēs";
+
+"sumup_tap_activation_intro_subtitle" = "Iestati Tap to Pay tavā iPhone, lai ātri un droši pieņemtu maksājumus.";
+
+"sumup_tap_activation_intro_table_first_row" = "iPhone XS vai jaunāks modelis";
+
+"sumup_tap_activation_intro_table_second_row" = "iOS 16.4 vai jaunāka versija";
+
+"sumup_tap_activation_intro_table_third_row" = "Aktivizēta piekļuves koda ievadīšana";
+
+"sumup_tap_activation_intro_table_title" = "Kas ir nepieciešams?";
+
+"sumup_tap_activation_intro_title" = "Tap to Pay tavā iPhone. Karšu terminālis nav nepieciešams.";
+
+"sumup_tap_activation_learn_more_button" = "Uzzināt vairāk";
+
+"sumup_tap_activation_learn_more_title" = "Par Tap to Pay tavā iPhone";
+
+"sumup_tap_activation_preparing_subtitle" = "Mirkli uzgaidi…";
+
+"sumup_tap_activation_preparing_title" = "Sagatavojas darbam";
+
+"sumup_tap_activation_setup_button" = "Iestatīt";
+
+"sumup_tap_capture_pin_failed" = "Neizdevās iegūt PIN kodu";
+
+"sumup_tap_card_declined" = "Maksājums bija nesekmīgs vai tika noraidīts";
+
+"sumup_tap_enable_subtitle" = "Rādīt kā maksājuma veidu norēķināšanās laikā.";
+
+"sumup_tap_enable_toggle" = "Tap to Pay tavā iPhone";
+
+"sumup_tap_error_title" = "Kļūme";
+
+"sumup_tap_failed_to_read_card" = "Kartes nolasīšana nesekmīga";
+
+"sumup_tap_finalizing_tx" = "Notiek pabeigšana";
+
+"sumup_tap_home_button" = "Sākt";
+
+"sumup_tap_home_title" = "Pieņem bezkontakta maksājumus, izmantojot tikai savu iPhone";
+
+"sumup_tap_learn_more_accessibility" = "Piekļūstamības iespējas";
+
+"sumup_tap_learn_more_at_checkout" = "Norēķinoties atlasi\n\"Tap to Pay iPhone ierīcēs\".";
+
+"sumup_tap_learn_more_btn_set_up_now" = "Iestatīt tagad";
+
+"sumup_tap_learn_more_customer_enters_pin" = "Ja nepieciešams, klients var ievadīt PIN kodu, lai veiktu lielāka apmēra maksājumus";
+
+"sumup_tap_learn_more_enter_card_pin" = "Ievadiet kartes PIN";
+
+"sumup_tap_learn_more_hold_here_to_pay" = "Pielikt šeit, lai samaksātu";
+
+"sumup_tap_learn_more_hold_near_contactless" = "Vai arī lai pieliek un patur karti pie bezkontakta maksājumu simbola";
+
+"sumup_tap_learn_more_pay_flower_shop" = "Maksājums ziedu veikalam";
+
+"sumup_tap_learn_more_payment_links" = "Maksājumu saites";
+
+"sumup_tap_learn_more_payment_methods" = "Maksājumu veidi";
+
+"sumup_tap_learn_more_present_to_customer" = "Lūdz, lai klients pieliek un patur savu karti, kā parādīts";
+
+"sumup_tap_learn_more_price" = "17,50 €";
+
+"sumup_tap_learn_more_ttpoi" = "Tap to Pay iPhone ierīcēs";
+
+"sumup_tap_link_account_failed" = "Neizdevās parādīt pakalpojumu sniegšanas noteikumus";
+
+"sumup_tap_model_check_alert_message" = "Lai izmantotu šo funkciju, ir nepieciešams iPhone XS vai jaunāks modelis";
+
+"sumup_tap_model_check_alert_title" = "iPhone modelis";
+
+"sumup_tap_must_accept_tos" = "Lai izmantotu SumUp Tap, apstiprini pakalpojumu sniegšanas noteikumus";
+
+"sumup_tap_must_enable_passcode" = "Lai varētu izmantot Tap to Pay tavā iPhone, šajā tālrunī ir jāiespējo drošības pieejas kods";
+
+"sumup_tap_not_allowed_during_call" = "Pirms Tap to Pay tavā iPhone izmantošanas, pabeidz visus zvanus";
+
+/* title for the Stories component for Tap on phone */
+"sumup_tap_on_phone_android_landing_stories_screen_title" = "SumUp Tap to Pay Android ierīcēs";
+
+"sumup_tap_on_phone_android_version_success_title" = "Android version";
+
+"sumup_tap_on_phone_android_version_warning_description" = "Requires version 8.0 or above";
+
+"sumup_tap_on_phone_android_version_warning_title" = "Android version incompatible";
+
+"sumup_tap_on_phone_app_version_title" = "SumUp App version";
+
+"sumup_tap_on_phone_app_version_warning_description" = "Tap to update";
+
+"sumup_tap_on_phone_btn_retry" = "Mēģināt vēlreiz";
+
+"sumup_tap_on_phone_cancel_message" = "In order to cancel your transaction, please force quit the SumUp App.";
+
+"sumup_tap_on_phone_connection_lost" = "Nav interneta savienojuma";
+
+"sumup_tap_on_phone_developer_options_check_success_title" = "Developer options";
+
+"sumup_tap_on_phone_developer_options_check_warning_description" = "Tap to disable";
+
+"sumup_tap_on_phone_developer_options_check_warning_title" = "Developer options enabled";
+
+"sumup_tap_on_phone_failed_message" = "Kaut kas nogāja greizi. Lūdzu, mēģini vēlāk vēlreiz vai sazinies ar mūsu Atbalsta komandu.";
+
+"sumup_tap_on_phone_feature_description" = "Pieņem maksājumus bez karšu termināļa, izmantojot savu mobilo ierīci. Norēķināšanās laikā kā maksājuma veids būs pieejams Tap to Pay.";
+
+"sumup_tap_on_phone_feature_enabled_with_warnings_description" = "Lai veiktu darījumus, izmantojot Tap to Pay, pārskati tālāk norādītās problēmas, kas atzīmētas sarkanā krāsā.";
+
+/* Title of the guide box when find antenna failed */
+"sumup_tap_on_phone_find_antenna_box_failed_title" = "Neizdevās atrast antenu. Mēģini vēlreiz.";
+
+/* Title of the guide box when find antenna starts */
+"sumup_tap_on_phone_find_antenna_box_follow_title" = "Seko šai kastītei ar karti uz tālruņa aizmugures.";
+
+/* Title of the guide box before starting on the find antenna tutorial screen */
+"sumup_tap_on_phone_find_antenna_box_initial_title" = "Šī kastīte ekrānā lēnām virzīsies uz leju un uz augšu. Seko tai ar karti, turot to pie tālruņa aizmugures. <strong>Maksājums no kartes netiks iekasēts.</strong> Kad viss gatavs, pieskaries pie \"Sākt\".";
+
+/* Title of the guide box body when finding antenna succeeds */
+"sumup_tap_on_phone_find_antenna_box_success_body" = "Lai vienmēr pārliecinātos, ka maksājums tiek pieņemts, <strong>palūdz klientiem pielikt savu karti pie šīs zonas uz tava tālruņa aizmugures</strong>. Ja viss gatavs, pieņem maksājumu.";
+
+/* Title of the guide box header when finding antenna succeeds */
+"sumup_tap_on_phone_find_antenna_box_success_header" = "Tā ir īstā vieta!";
+
+/* Title of the find antenna tutorial screen when attempts limit reached */
+"sumup_tap_on_phone_find_antenna_contact_support_title" = "Lai saņemtu papildu palīdzību, sazinies ar SumUp atbalsta komandu.";
+
+/* Title of the cancel CTA on the find antenna tutorial screen */
+"sumup_tap_on_phone_find_antenna_cta_cancel" = "Atcelt";
+
+/* Title of the contact support CTA on the find antenna tutorial screen */
+"sumup_tap_on_phone_find_antenna_cta_contact_support" = "Sazināties ar atbalsta komandu";
+
+/* Title of the finish CTA on the find antenna tutorial screen */
+"sumup_tap_on_phone_find_antenna_cta_finish" = "Gatavs";
+
+/* Title of the start CTA on the find antenna tutorial screen */
+"sumup_tap_on_phone_find_antenna_cta_start" = "Sākt";
+
+/* Title of the take a payment CTA on the find antenna tutorial screen */
+"sumup_tap_on_phone_find_antenna_cta_take_a_payment" = "Pieņemt maksājumu";
+
+/* Title of the try again CTA on the find antenna tutorial screen */
+"sumup_tap_on_phone_find_antenna_cta_try_again" = "Mēģināt vēlreiz";
+
+"sumup_tap_on_phone_google_services_title" = "Google services";
+
+/* Title for the Stories component for Tap to Pay on iPhone */
+"sumup_tap_on_phone_ios_landing_stories_screen_title" = "SumUp Tap to Pay tavā iPhone";
+
+/* subtitle for Stories TTP component page two */
+"sumup_tap_on_phone_ios_landing_stories_slide_1_subtitle" = "Pieņem bezkontakta maksājumus klātienē, izmantojot savu iPhone, — papildu karšu terminālis vai cita aparatūra nav nepieciešama.";
+
+/* title for Stories TTP component page one */
+"sumup_tap_on_phone_ios_landing_stories_slide_1_title" = "Pieņem maksājumus ar savu iPhone";
+
+/* subtitle for Stories TTP component page two */
+"sumup_tap_on_phone_ios_landing_stories_slide_2_subtitle" = "Nekādu līgumsaistību vai ikmēneša maksu — tikai neliela SumUp maksa par darījumu %1$@ apmērā no katra ar iPhone pieņemtā darījuma.";
+
+/* subtitle for Stories TTP component page four */
+"sumup_tap_on_phone_ios_landing_stories_slide_3_subtitle" = "Lejupielādē SumUp lietotni, veic dažas vienkāršas darbības, un dažu minūšu laikā viss būs gatavs, lai varētu pieņemt maksājumus ar iPhone.";
+
+/* subtitle for Stories TTP component page four */
+"sumup_tap_on_phone_ios_landing_stories_slide_4_subtitle" = "Pay a small SumUp transaction fee of 1.69% for each payment you take with your iPhone.";
+
+/* title for the Stories component CTA button for Tap on phone */
+"sumup_tap_on_phone_landing_stories_action_button_title" = "Pieslēdz tagad";
+
+/* subtitle for Stories component page two */
+"sumup_tap_on_phone_landing_stories_slide_1_subtitle" = "Pieņem bezkontakta maksājumus klātienē, izmantojot savu viedtālruni, — papildu karšu terminālis vai cita aparatūra nav nepieciešama.";
+
+/* title for Stories component page one */
+"sumup_tap_on_phone_landing_stories_slide_1_title" = "Pieņem maksājumus ar savu viedtālruni";
+
+/* subtitle for Stories component page two */
+"sumup_tap_on_phone_landing_stories_slide_2_subtitle" = "Nekādu līgumsaistību vai ikmēneša maksu — tikai neliela SumUp maksa par darījumu %1$@ apmērā no katra ar viedtālruni pieņemtā darījuma.";
+
+/* title for Stories component page two */
+"sumup_tap_on_phone_landing_stories_slide_2_title" = "Aktivizē bez maksas un līgumsaistībām";
+
+/* subtitle for Stories component page three */
+"sumup_tap_on_phone_landing_stories_slide_3_subtitle" = "Lejupielādē SumUp lietotni, veic dažas vienkāršas darbības, un dažu minūšu laikā viss būs gatavs, lai varētu pieņemt maksājumus ar viedtālruni.";
+
+/* title for Stories component page three */
+"sumup_tap_on_phone_landing_stories_slide_3_title" = "Uzsāc maksājumu pieņemšanu uzreiz";
+
+/* subtitle for Stories component page four */
+"sumup_tap_on_phone_landing_stories_slide_4_subtitle" = "Pay a small SumUp transaction fee of 1.69% for each payment you take with your Android phone.";
+
+/* title for Stories component page four */
+"sumup_tap_on_phone_landing_stories_slide_4_title" = "No contracts or monthly fees";
+
+"sumup_tap_on_phone_loading_description" = "Tālrunis tiek pārveidots par maksājumu pieņemšanas ierīci. Tas aizņems tikai mirkli.";
+
+"sumup_tap_on_phone_loading_message" = "Darba uzsākšana ar Tap to Pay";
+
+"sumup_tap_on_phone_loading_title" = "Sagatavojas darbam";
+
+"sumup_tap_on_phone_nfc_error_title" = "NFC not available";
+
+"sumup_tap_on_phone_nfc_success_title" = "NFC enabled";
+
+"sumup_tap_on_phone_nfc_warning_description" = "Tap to enable";
+
+"sumup_tap_on_phone_nfc_warning_title" = "NFC not enabled";
+
+/* Title of the tap on phone tutorial CTA button on the overview screen */
+"sumup_tap_on_phone_overview_tutorial_cta_title" = "Uzzināt par Tap to Pay";
+
+"sumup_tap_on_phone_title" = "Tap to Pay";
+
+/* Title of the android version requirement on the tutorial home screen */
+"sumup_tap_on_phone_tutorial_home_screen_android_version_requirement" = "Android 8 vai jaunāka versija";
+
+/* Title of the app version requirement on the tutorial home screen */
+"sumup_tap_on_phone_tutorial_home_screen_app_version_requirement" = "Jaunākā SumUp lietotnes versija";
+
+/* Title of the body on the tutorial home screen */
+"sumup_tap_on_phone_tutorial_home_screen_body" = "Pieņem bezkontakta maksājumus ar kartēm vai digitālajiem makiem savā viedtālrunī, izmantojot Tap to Pay Android ierīcēs un SumUp lietotni.";
+
+/* Title of CTA on the tutorial home screen */
+"sumup_tap_on_phone_tutorial_home_screen_cta_title" = "Iestatīt tagad";
+
+/* Title of the developer tools requirement on the tutorial home screen */
+"sumup_tap_on_phone_tutorial_home_screen_developer_tools_requirement" = "Ieslēgts iestatījums \"Izstrādāju rīki\"";
+
+/* Title of the google services requirement on the tutorial home screen */
+"sumup_tap_on_phone_tutorial_home_screen_google_services_requirement" = "Ieslēgti Google pakalpojumi";
+
+/* Title of the header on the tutorial home screen */
+"sumup_tap_on_phone_tutorial_home_screen_header" = "Viss nepieciešamais maksājumu pieņemšanai jau ir tavās rokās";
+
+/* Title of the NFC requirement on the tutorial home screen */
+"sumup_tap_on_phone_tutorial_home_screen_nfc_requirement" = "Ieslēgta NFC funkcija (tālruņa iestatījumos)";
+
+/* Title of the requirements header on the tutorial home screen */
+"sumup_tap_on_phone_tutorial_home_screen_requirements_header" = "Prasības";
+
+/* Title of the alert dialog body on the tutorial home screen */
+"sumup_tap_on_phone_tutorial_home_screen_system_requirements_body" = "Lai turpinātu iestatīšanu, pārliecinies, ka tālrunis atbilst Tap to Pay izmantošanas prasībām.";
+
+/* Title of the alert dialog header on the tutorial home screen */
+"sumup_tap_on_phone_tutorial_home_screen_system_requirements_header" = "Sistēmas prasības";
+
+/* Title of the CTA on tap on phone tutorial promotional banner */
+"sumup_tap_on_phone_tutorial_promotional_banner_cta" = "Iestatīt tagad";
+
+/* Title of the tap on phone tutorial promotional banner */
+"sumup_tap_on_phone_tutorial_promotional_banner_title" = "Pieņem bezkontakta maksājumus, izmantojot tikai tālruni";
+
+"sumup_tap_on_phone_update_app_message" = "Lai izmantotu Tap to Pay, atjaunini SumUp lietotni.";
+
+/* Title of the next step CTA on the tutorial walkthrough screen */
+"sumup_tap_on_phone_walkthrough_cta_find_antenna" = "Atrast NFC antenu";
+
+/* Title of the next step CTA on the tutorial walkthrough screen */
+"sumup_tap_on_phone_walkthrough_cta_next" = "Tālāk";
+
+/* Title of the CTA to turn on tap to pay on the tutorial walkthrough screen */
+"sumup_tap_on_phone_walkthrough_cta_turn_on_ttp" = "Ieslēgt tagad";
+
+/* Title of the step customer tap card on the tutorial walkthrough screen */
+"sumup_tap_on_phone_walkthrough_step_customer_tap_card" = "Klientam jāpieliek un jāpatur karte pie tavas Android ierīces aizmugures, līdz atskan signāls.";
+
+/* Title of the step find antenna on the tutorial walkthrough screen */
+"sumup_tap_on_phone_walkthrough_step_find_antenna" = "Vai nezini, kur jāpieliek karte? Velti minūti laika tagad, lai to pārbaudītu.";
+
+/* Title of the step select payment method on the tutorial walkthrough screen */
+"sumup_tap_on_phone_walkthrough_step_select_payment" = "Norēķinoties kā maksājuma veidu atlasi \"Tap to Pay\"";
+
+/* Title of the step turn on tap to pay on the tutorial walkthrough screen */
+"sumup_tap_on_phone_walkthrough_step_turn_on_ttp" = "Ieslēdz \"Tap to Pay\" tagad vai paveic to vēlāk savā SumUp profilā";
+
+"sumup_tap_or_insert_card" = "Pielieciet vai ievietojiet karti";
+
+"sumup_tap_os_check_alert_message" = "Lai izmantotu šo funkciju, ir nepieciešama iOS %1$@ vai jaunāka versija";
+
+"sumup_tap_os_check_alert_settings_button" = "Iestatījumi";
+
+"sumup_tap_os_check_alert_title" = "OS versija";
+
+"sumup_tap_prepare_failed" = "Neizdevās uzsākt Tap to Pay tavā iPhone";
+
+"sumup_tap_prereq_app_version" = "SumUp lietotnes versija";
+
+"sumup_tap_prereq_app_version_cta" = "Atvērt lietotņu veikalu";
+
+"sumup_tap_prereq_apple_tap_to_pay" = "\"Tap to Pay\" pakalpojumi";
+
+"sumup_tap_prereq_device_model" = "iPhone modelis";
+
+"sumup_tap_prereq_device_model_cta" = "Plašāka informācija";
+
+"sumup_tap_prereq_os_version" = "iOS versija";
+
+"sumup_tap_prereq_os_version_cta" = "Atvērt iOS iestatījumus";
+
+"sumup_tap_prereq_terms_of_service" = "Pakalpojumu sniegšanas noteikumi";
+
+"sumup_tap_prereq_terms_of_service_cta" = "Pārskatīt noteikumus";
+
+"sumup_tap_processing_tx" = "Notiek apstrāde";
+
+"sumup_tap_profile_settings_item" = "Tap to Pay tavā iPhone";
+
+"sumup_tap_profile_settings_title" = "Tap to Pay tavā iPhone";
+
+"sumup_tap_proximity_reader_check_alert_message" = "Tap to Pay tavā iPhone diemžēl nav pieejams.";
+
+"sumup_tap_proximity_reader_check_alert_title" = "Tap to Pay tavā iPhone";
+
+"sumup_tap_reader_busy" = "Sagatavojas darbam. Vēlāk mēģini vēlreiz.";
+
+"sumup_tap_renewal_failed" = "Nevar atjaunot sesiju";
+
+"sumup_tap_settings_learn_more" = "Uzzināt par Tap to Pay tavā iPhone";
+
+"sumup_tap_settings_learn_more_title" = "Tap to Pay tavā iPhone";
+
+"sumup_tap_starting" = "Notiek uzsākšana";
+
+"sumup_tap_subaccount_check_alert_message" = "Darbinieka konts diemžēl nevar autorizēt Tap to Pay.\n\nSazinies ar galveno SumUp konts konta īpašnieku, lai to aktivizētu, un mēģini vēlreiz.";
+
+"sumup_tap_subaccount_check_alert_title" = "Darbinieka konts nevar veikt aktivizēšanu";
+
+"sumup_tap_to_pay_customer_phone_instructions_title" = "Customer's phone requires action to complete the payment.";
+
+"sumup_tap_tos_already_accepted" = "Pakalpojumu sniegšanas noteikumi ir jau apstiprināti";
+
+"sumup_tap_user_cancelled" = "Darījumu atcēla lietotājs";
+

@@ -1,0 +1,275 @@
+/* Title shown in navigation bar for card reader screen in Options */
+"card_reader_setting" = "Kártyaolvasó";
+
+/* Shown for Brazilian users, with a card reader activation code beneath */
+"card_reader_setting_activate_model" = "Total/Super/On aktiválása";
+
+/* Label shown next to the toggle for enabling the card reader */
+"card_reader_setting_enable_generic" = "Kártyás fizetések fogadása";
+
+/* For Brazilian users - label shown next to the toggle for enabling the card reader */
+"card_reader_setting_enable_model" = "Accept payments with Top / Solo";
+
+/* Label shown under the toggle for enabling the card reader */
+"card_reader_setting_enable_subtitle" = "Jelenítse meg fizetési módként a fizetés során";
+
+/* Call to action text shown on the card that appears when the user has not configured any card reader yet */
+"card_reader_setting_no_reader_cta" = "Kártyás fizetések fogadása";
+
+/* Call to action button on the card that appears when the user has not configured any card reader yet */
+"card_reader_setting_no_reader_cta_button" = "Csatlakoztatás";
+
+/* Call to action text shown on the card that appears when the user has not configured any card reader yet */
+"card_reader_setting_no_reader_cta_generic" = "Kártyás fizetések fogadása";
+
+/* For Brazilian users - call to action text shown on the card that appears when the user has not configured any card reader yet */
+"card_reader_setting_no_reader_cta_model" = "A Solo kártyaolvasó használata";
+
+/* Button to perform a bluetooth scan for card readers even though one or more card readers are already configured */
+"card_reader_setting_switch_card_readers" = "Váltás másik kártyaolvasóra";
+
+/* Don not translate! */
+"sumup_btn_awb_scan" = "Ismételt keresés";
+
+/* PIN+ setup: Button text for making a phone call to support */
+"sumup_btn_call_support" = "Hívás most";
+
+"sumup_btn_cancel" = "Mégse";
+
+/* Button to connect to a PIN+ reader in discovered readers screen */
+"sumup_btn_connect" = "Csatlakozás";
+
+/* Button text shown in the action bar for deleting a product */
+"sumup_btn_delete" = "Törlés";
+
+"sumup_btn_dismiss" = "Elvetés";
+
+/* Synonym: Validate / Confirm */
+"sumup_btn_done" = "Kész";
+
+"sumup_btn_edit" = "Szerkesztés";
+
+/* Title of a button shown after viewing the last onboarding slide in educational product catalog onboarding and finishing the onboarding (should be kept generic for usage in other contexts as well) */
+"sumup_btn_finish" = "Befejezés";
+
+"sumup_btn_go_to_support" = "Kérjen segítséget az ügyfélszolgálattól";
+
+/* Text of a button to dismiss a screen or a dialog and do something later */
+"sumup_btn_later" = "Később";
+
+"sumup_btn_new_set_up" = "Új üzembe helyezés";
+
+/* PIN+ setup: Button text to exit the setup process after success */
+"sumup_btn_next" = "Folytatás";
+
+"sumup_btn_no" = "Nem";
+
+"sumup_btn_not_my_reader" = "Nem az én kártyaolvasóm";
+
+"sumup_btn_ok" = "OK";
+
+/* Button shown on the signature screen once the customer has signed for the payment. */
+"sumup_btn_pay" = "Fizetés";
+
+"sumup_btn_previous" = "Előző";
+
+"sumup_btn_proceed" = "Folytatás";
+
+/* PIN+ setup: Button to restart a BTLE scan in discovered readers screen. Keep short */
+"sumup_btn_rescan" = "Ismételt keresés";
+
+/* Label of the Button which restries the FW update */
+"sumup_btn_retry" = "Újra";
+
+"sumup_btn_scan" = "Keresés";
+
+/* Label of the button Send */
+"sumup_btn_send" = "Küldés";
+
+/* Label of the button Send to mobile */
+"sumup_btn_send_to_mobile" = "Küldés mobilra";
+
+"sumup_btn_skip" = "Kihagyás";
+
+/* Label for a button to switch mode (initially from pin+ audio to pin+ bluetooth) */
+"sumup_btn_switch" = "Switch now";
+
+"sumup_btn_tx_failed_try_again" = "Újrapróbálkozás";
+
+"sumup_btn_update" = "Frissítés";
+
+"sumup_btn_yes" = "Igen";
+
+"sumup_btn_yes_connect" = "Igen, csatlakozás";
+
+"sumup_btn_yes_scan" = "Igen, keresés";
+
+"sumup_card_reader_battery_level_label" = "Akkumulátorszint";
+
+"sumup_card_reader_battery_level_percentage" = "%1$d%%";
+
+/* text for Card reader battery */
+"sumup_card_reader_battery_text" = "Akkumulátor";
+
+/* text for Card reader Bluetooth software version */
+"sumup_card_reader_bluetooth_software_version_text" = "Bluetooth-szoftver";
+
+/* text for Card reader page connect button */
+"sumup_card_reader_connect_button_text" = "Csatlakozás";
+
+/* Header text for card reader unable to connect dialog */
+"sumup_card_reader_error_dialog_header" = "Sikertelen csatlakoztatás";
+
+/* Positive Button text for card reader unable to connect dialog */
+"sumup_card_reader_error_dialog_positive" = "Próbálja újra";
+
+/* Title text for card reader unable to connect dialog */
+"sumup_card_reader_error_dialog_title" = "Nem sikerült csatlakozni a kártyaolvasóhoz. Próbálja újra.";
+
+"sumup_card_reader_hardware_version_text" = "Hardver";
+
+/* text for Card reader last three digits */
+"sumup_card_reader_last_digits_text" = "Utolsó számjegyek";
+
+"sumup_card_reader_low_battery" = "Low battery, please charge device";
+
+/* body for Card reader not saved */
+"sumup_card_reader_not_saved_body" = "Kártyaolvasó csatlakoztatása";
+
+/* title for Card reader not saved */
+"sumup_card_reader_not_saved_title" = "Kezdjen el kártyás fizetéseket fogadni";
+
+/* Title for Card reader not saved Brazil */
+"sumup_card_reader_not_saved_title_br" = "Kezdje el használni a Top/Solo kártyaolvasót";
+
+/* text for Card reader serial number */
+"sumup_card_reader_serial_number_text" = "Sorozatszám";
+
+/* Title text for Card reader page toggle */
+"sumup_card_reader_setting_enable_generic" = "Fizetések fogadása a kártyaolvasóval";
+
+/* Title text for Card reader page toggle for BR */
+"sumup_card_reader_setting_enable_generic_br" = "Fizetések fogadása a Top/Solo kártyaolvasóval";
+
+/* Subtitle text for Card reader page */
+"sumup_card_reader_setting_enable_subtitle" = "Jelenítse meg fizetési módként a fizetés során.";
+
+/* text for Card reader page footer */
+"sumup_card_reader_setting_switch_card_readers" = "Váltás másik kártyaolvasóra";
+
+/* text for Card reader software version */
+"sumup_card_reader_software_version_text" = "Szoftver";
+
+/* Button title to close current opened product on the Home Screen. */
+"sumup_home_close_btn" = "Bezárás";
+
+/* Description in the alert explaining the restart duration and impact on transactions */
+"sumup_hybrid_update_alert_description" = "Ez egy percet vesz igénybe, majd a szokásos módon folytathatja a tranzakciók lebonyolítását.";
+
+/* Label for the button to confirm and trigger the reader restart */
+"sumup_hybrid_update_alert_primary_button" = "Újraindítás";
+
+/* Label for the button to dismiss or postpone the reader restart */
+"sumup_hybrid_update_alert_secondary_button" = "Később";
+
+/* Title of the alert asking the user to restart the reader to complete the update process */
+"sumup_hybrid_update_alert_title" = "Indítsa újra a kártyaolvasót a frissítés befejezéséhez";
+
+/* Notification informing the user that the update was interrupted because the reader disconnected */
+"sumup_hybrid_update_notification_disconnection" = "A kártyaolvasó kapcsolata megszakadt. Csatlakoztassa újra a tranzakciók folytatásához.";
+
+/* Notification informing the user that the reader is downloading an update while they continue working */
+"sumup_hybrid_update_notification_downloading" = "A kártyaolvasó frissíti magát. A szokásos módon folytathatja a tranzakciókat.";
+
+/* Notification informing the user that the update failed and a retry will be attempted */
+"sumup_hybrid_update_notification_error" = "A kártyaolvasó frissítése sikertelen, próbálja újra. A szokásos módon folytathatja a tranzakciókat.";
+
+/* Notification asking the user to wait while the reader is performing a restart */
+"sumup_hybrid_update_notification_restarting" = "Várjon egy percet a kártyaolvasó újraindulására. Hamarosan megkezdheti a tranzakciók lebonyolítását.";
+
+/* Notification confirming that the card reader update was completed successfully */
+"sumup_hybrid_update_notification_success" = "A kártyaolvasó frissítése sikeres.";
+
+/* Description of Calculate cash change setting */
+"sumup_payment_setting_cash_calculation_at_checkout_description" = "Adja meg a kapott készpénz összegét a visszajáró kiszámításához";
+
+/* Title of Calculate cash change setting */
+"sumup_payment_setting_cash_calculation_at_checkout_title" = "Visszajáró kiszámítása";
+
+/* Subtitle of Cash management setting */
+"sumup_payment_setting_cash_management_subtitle" = "Track all cash movements in and out of your till and generate related reports.";
+
+/* Title of Cash management setting */
+"sumup_payment_setting_cash_management_title" = "Manage cash";
+
+"sumup_payment_setting_cash_payment" = "Készpénzes fizetés";
+
+/* Label shown under the toggle for enabling cash payments */
+"sumup_payment_setting_cash_payment_footer" = "Megjelenítés fizetési módként, és a készpénzes fizetések nyomon követése.";
+
+/* Second label shown under the toggle for enabling cash payments */
+"sumup_payment_setting_cash_payment_footer_two" = "A készpénzes fizetések esetében nincsenek díjak.";
+
+/* Label shown next to the toggle for enabling cash payments */
+"sumup_payment_setting_cash_payment_switch" = "Készpénzes fizetések elfogadása";
+
+/* Title shown in navigation bar for Cash Payment screen in Profile */
+"sumup_payment_setting_cash_payment_title" = "Készpénzes fizetések";
+
+/* Placeholder text for the reader attribute not available */
+"sumup_reader_attribute_unknown" = "Ismeretlen";
+
+/* Label displayed when the App is attempting connecting to a card reader */
+"sumup_reader_connecting_text" = "Csatlakozás a kártyaolvasóhoz";
+
+/* Title displayed when the App is attempting connecting to a card reader */
+"sumup_reader_connecting_title" = "Csatlakozás";
+
+/* Footer text of the reader Update state in card reader component */
+"sumup_reader_home_item_status_update" = "Eszköz frissítése";
+
+"sumup_reader_not_found_message" = "A kártyaolvasó (%1$@) nem található. Kapcsolja be, és tartsa a közelben.";
+
+"sumup_reader_off_and_unplugged_message" = "Ellenőrizze, hogy az eszköz ki van-e kapcsolva, és ki van-e húzva az áramforrásból.";
+
+"sumup_reader_off_and_unplugged_title" = "Húzza ki, és kapcsolja ki";
+
+/* Title showed during during reader transaction, typically after connection and potentially tip on device */
+"sumup_reader_payment" = "Fizetés";
+
+/* Label displayed when payment was aborted by the client on a card reader (typically during tip on device, starting with SOLO) */
+"sumup_reader_payment_cancelled" = "A fizetést megszakították";
+
+/* Title of the button that opens the reader walkthrough from checkout. */
+"sumup_reader_walkthrough_button_title" = "Kártyaolvasó beállítása";
+
+/* Title of the reader Inactive state in card reader component */
+"sumup_saved_reader_home_item_status_is_inactive" = "Inaktív";
+
+/* Title of the reader Ready state in card reader component */
+"sumup_saved_reader_home_item_status_is_ready" = "Használatra kész";
+
+/* Message to confirm Text-to-Speech is activated */
+"sumup_text_to_speech_activation_message" = "Az eszköz kisegítő lehetőségeket kínáló módban van. Végigvezetik a tranzakción.";
+
+/* Text-to-Speech to report a failed transaction */
+"sumup_text_to_speech_failed_transaction" = "A tranzakció sikertelen, és a kártyát nem terheltük meg. Próbálja újra.";
+
+/* Text-to-Speech to report a failed transaction for wrong PIN */
+"sumup_text_to_speech_failed_transaction_pin" = "A tranzakció sikertelen volt, mert a megadott PIN-kód hibás. Próbálja újra.";
+
+/* Text-to-Speech to introduce the transaction to the customer */
+"sumup_text_to_speech_reader_instructions" = "Az esedékes összeg %1$@ %2$@. Válassza az alábbi két lehetőség egyikét a fizetéshez. Ha érintés nélküli fizetést szeretne végrehajtani, érintse a kártyáját a kártyaolvasóhoz. Hangjelzés hallgató, amikor az eszköz felismeri a kártyáját. Vagy fizethet úgy, hogy chippel előre és az elülső oldallal felfelé behelyezi a kártyaolvasó tetején található nyílásba – ebben az esetben kövesse az elhangzott utasításokat.";
+
+/* Text-to-Speech to ask for PIN during a transaction using Solo Lite */
+"sumup_text_to_speech_solo_lite_pin_instructions" = "Meg kell adnia a PIN-kódot. A kártyaolvasó előlapján egy mélyedésekkel ellátott burkolat található, amely segít Önnek. Tíz mélyedés a számjegyek számára, három pedig a funkciók számára. Használja ezeket a mélyedéseket a PIN-kód megadásához. Minden sikeresen megadott számjegyet hangjelzés követ. A funkciógombok három kerek mélyedése a jobb oldali oszlopban található. A felső gombbal szakíthatja meg a fizetést. Alatta található a törlés gomb, amely törli a legutóbb megadott számjegyet. Alatta pedig a megerősítés gomb. A számok a billentyűzeten a bal szélső három oszlopban találhatók, és négyszögletű mélyedéssel rendelkeznek. A billentyűzet telefonra emlékeztető elrendezéssel rendelkezik, amely az 1-es, 2-es és 3-as számokkal kezdődik balról jobbra a felső részen. Adja meg a PIN-kódot most, majd nyomja meg a megerősítés gombot.";
+
+/* Text-to-Speech to ask for PIN during a transaction using Solo */
+"sumup_text_to_speech_solo_pin_instructions" = "Meg kell adnia a PIN-kódot. A kártyaolvasó előlapján egy mélyedésekkel ellátott burkolat található, amely segít Önnek. Tíz mélyedés a számjegyek számára, három pedig a funkciók számára. Használja ezeket a mélyedéseket a PIN-kód megadásához. Minden sikeresen megadott számjegyet hangjelzés követ. A jobb felső gombbal megszakíthatja a fizetést. Alatta a számok 1-től 9-ig helyezkednek el egy három soros, telefonra emlékeztető elrendezésben, amely az 1-es, 2-es és 3-as számokkal kezdődik balról jobbra fent. A 4. sorban a bal alsó sarokban található a törlés gomb, amely törli a legutóbb megadott számjegyet. A nulla a sor közepén, a megerősítés gomb pedig a jobb oldalon található. Adja meg a PIN-kódot most, majd nyomja meg a megerősítés gombot.";
+
+/* Text-to-Speech to confirm transaction was successful */
+"sumup_text_to_speech_transaction_success" = "A tranzakció sikeres. Távolítsa el a kártyát.";
+
+/* Text-to-Speech message when the entered PIN is wrong */
+"sumup_text_to_speech_wrong_pin" = "A PIN-kód helytelen. Próbálja újra.";
+

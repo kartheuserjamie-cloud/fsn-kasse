@@ -1,0 +1,7 @@
+.DS_Store
+xcuserdata/
+DerivedData/
+dist/
+FSNKasse/build/
+FSNKasse/Generated/
+FSNKasse/FSNKasse.xcodeproj/

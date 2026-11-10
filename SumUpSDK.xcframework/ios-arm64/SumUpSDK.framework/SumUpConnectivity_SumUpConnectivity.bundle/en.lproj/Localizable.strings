@@ -1,0 +1,275 @@
+/* Title shown in navigation bar for card reader screen in Options */
+"card_reader_setting" = "Card reader";
+
+/* Shown for Brazilian users, with a card reader activation code beneath */
+"card_reader_setting_activate_model" = "Activate Total / Super / On";
+
+/* Label shown next to the toggle for enabling the card reader */
+"card_reader_setting_enable_generic" = "Accept payments with card reader";
+
+/* For Brazilian users - label shown next to the toggle for enabling the card reader */
+"card_reader_setting_enable_model" = "Accept payments with Top / Solo";
+
+/* Label shown under the toggle for enabling the card reader */
+"card_reader_setting_enable_subtitle" = "Show as a payment method during checkout";
+
+/* Call to action text shown on the card that appears when the user has not configured any card reader yet */
+"card_reader_setting_no_reader_cta" = "Get started with card payments";
+
+/* Call to action button on the card that appears when the user has not configured any card reader yet */
+"card_reader_setting_no_reader_cta_button" = "Connect card reader";
+
+/* Call to action text shown on the card that appears when the user has not configured any card reader yet */
+"card_reader_setting_no_reader_cta_generic" = "Get started with card payments";
+
+/* For Brazilian users - call to action text shown on the card that appears when the user has not configured any card reader yet */
+"card_reader_setting_no_reader_cta_model" = "Get started with Top / Solo";
+
+/* Button to perform a bluetooth scan for card readers even though one or more card readers are already configured */
+"card_reader_setting_switch_card_readers" = "Switch to another card reader";
+
+/* Don not translate! */
+"sumup_btn_awb_scan" = "Rescan";
+
+/* PIN+ setup: Button text for making a phone call to support */
+"sumup_btn_call_support" = "Call now";
+
+"sumup_btn_cancel" = "Cancel";
+
+/* Button to connect to a PIN+ reader in discovered readers screen */
+"sumup_btn_connect" = "Connect";
+
+/* Button text shown in the action bar for deleting a product */
+"sumup_btn_delete" = "Delete";
+
+"sumup_btn_dismiss" = "Dismiss";
+
+/* Synonym: Validate / Confirm */
+"sumup_btn_done" = "Done";
+
+"sumup_btn_edit" = "Edit";
+
+/* Title of a button shown after viewing the last onboarding slide in educational product catalog onboarding and finishing the onboarding (should be kept generic for usage in other contexts as well) */
+"sumup_btn_finish" = "Finish";
+
+"sumup_btn_go_to_support" = "Go to support";
+
+/* Text of a button to dismiss a screen or a dialog and do something later */
+"sumup_btn_later" = "Later";
+
+"sumup_btn_new_set_up" = "New set-up";
+
+/* PIN+ setup: Button text to exit the setup process after success */
+"sumup_btn_next" = "Next";
+
+"sumup_btn_no" = "No";
+
+"sumup_btn_not_my_reader" = "Not my reader";
+
+"sumup_btn_ok" = "OK";
+
+/* Button shown on the signature screen once the customer has signed for the payment. */
+"sumup_btn_pay" = "Pay";
+
+"sumup_btn_previous" = "Previous";
+
+"sumup_btn_proceed" = "Proceed";
+
+/* PIN+ setup: Button to restart a BTLE scan in discovered readers screen. Keep short */
+"sumup_btn_rescan" = "Rescan";
+
+/* Label of the Button which restries the FW update */
+"sumup_btn_retry" = "Retry";
+
+"sumup_btn_scan" = "Scan";
+
+/* Label of the button Send */
+"sumup_btn_send" = "Send";
+
+/* Label of the button Send to mobile */
+"sumup_btn_send_to_mobile" = "Send to mobile";
+
+"sumup_btn_skip" = "Skip";
+
+/* Label for a button to switch mode (initially from pin+ audio to pin+ bluetooth) */
+"sumup_btn_switch" = "Switch now";
+
+"sumup_btn_tx_failed_try_again" = "Try again";
+
+"sumup_btn_update" = "Update";
+
+"sumup_btn_yes" = "Yes";
+
+"sumup_btn_yes_connect" = "Yes, connect";
+
+"sumup_btn_yes_scan" = "Yes, scan";
+
+"sumup_card_reader_battery_level_label" = "Battery level";
+
+"sumup_card_reader_battery_level_percentage" = "%d%%";
+
+/* text for Card reader battery */
+"sumup_card_reader_battery_text" = "Battery";
+
+/* text for Card reader Bluetooth software version */
+"sumup_card_reader_bluetooth_software_version_text" = "Bluetooth software";
+
+/* text for Card reader page connect button */
+"sumup_card_reader_connect_button_text" = "Connect";
+
+/* Header text for card reader unable to connect dialog */
+"sumup_card_reader_error_dialog_header" = "Couldn't connect";
+
+/* Positive Button text for card reader unable to connect dialog */
+"sumup_card_reader_error_dialog_positive" = "Try again";
+
+/* Title text for card reader unable to connect dialog */
+"sumup_card_reader_error_dialog_title" = "Couldn't connect to the card reader. Please try again.";
+
+"sumup_card_reader_hardware_version_text" = "Hardware";
+
+/* text for Card reader last three digits */
+"sumup_card_reader_last_digits_text" = "Last digits";
+
+"sumup_card_reader_low_battery" = "Low battery, please charge device";
+
+/* body for Card reader not saved */
+"sumup_card_reader_not_saved_body" = "Connect card reader";
+
+/* title for Card reader not saved */
+"sumup_card_reader_not_saved_title" = "Get started with card payments";
+
+/* Title for Card reader not saved Brazil */
+"sumup_card_reader_not_saved_title_br" = "Get started with Top / Solo";
+
+/* text for Card reader serial number */
+"sumup_card_reader_serial_number_text" = "Serial number";
+
+/* Title text for Card reader page toggle */
+"sumup_card_reader_setting_enable_generic" = "Accept payments with card reader";
+
+/* Title text for Card reader page toggle for BR */
+"sumup_card_reader_setting_enable_generic_br" = "Accept payments with Top / Solo";
+
+/* Subtitle text for Card reader page */
+"sumup_card_reader_setting_enable_subtitle" = "Show as a payment method during checkout.";
+
+/* text for Card reader page footer */
+"sumup_card_reader_setting_switch_card_readers" = "Switch to another card reader";
+
+/* text for Card reader software version */
+"sumup_card_reader_software_version_text" = "Software";
+
+/* Button title to close current opened product on the Home Screen. */
+"sumup_home_close_btn" = "Close";
+
+/* Description in the alert explaining the restart duration and impact on transactions */
+"sumup_hybrid_update_alert_description" = "This should take about a minute, after which you can transact again as usual.";
+
+/* Label for the button to confirm and trigger the reader restart */
+"sumup_hybrid_update_alert_primary_button" = "Restart now";
+
+/* Label for the button to dismiss or postpone the reader restart */
+"sumup_hybrid_update_alert_secondary_button" = "Later";
+
+/* Title of the alert asking the user to restart the reader to complete the update process */
+"sumup_hybrid_update_alert_title" = "Restart reader to finish update";
+
+/* Notification informing the user that the update was interrupted because the reader disconnected */
+"sumup_hybrid_update_notification_disconnection" = "Your card reader has disconnected. Please reconnect it to resume transacting.";
+
+/* Notification informing the user that the reader is downloading an update while they continue working */
+"sumup_hybrid_update_notification_downloading" = "Your card reader is updating itself. You can continue to transact as usual.";
+
+/* Notification informing the user that the update failed and a retry will be attempted */
+"sumup_hybrid_update_notification_error" = "The card reader failed to update and it will try again. You can continue to transact as usual.";
+
+/* Notification asking the user to wait while the reader is performing a restart */
+"sumup_hybrid_update_notification_restarting" = "Please wait a minute while your card reader restarts. You'll be transacting again very soon.";
+
+/* Notification confirming that the card reader update was completed successfully */
+"sumup_hybrid_update_notification_success" = "Your card reader was successfully updated.";
+
+/* Description of Calculate cash change setting */
+"sumup_payment_setting_cash_calculation_at_checkout_description" = "Enter cash received to calculate change due";
+
+/* Title of Calculate cash change setting */
+"sumup_payment_setting_cash_calculation_at_checkout_title" = "Calculate change";
+
+/* Subtitle of Cash management setting */
+"sumup_payment_setting_cash_management_subtitle" = "Track all cash movements in and out of your till and generate related reports.";
+
+/* Title of Cash management setting */
+"sumup_payment_setting_cash_management_title" = "Manage cash";
+
+"sumup_payment_setting_cash_payment" = "Cash Payment";
+
+/* Label shown under the toggle for enabling cash payments */
+"sumup_payment_setting_cash_payment_footer" = "Show as a payment method during checkout, and keep track of cash payments.";
+
+/* Second label shown under the toggle for enabling cash payments */
+"sumup_payment_setting_cash_payment_footer_two" = "There are no fees for cash payments.";
+
+/* Label shown next to the toggle for enabling cash payments */
+"sumup_payment_setting_cash_payment_switch" = "Accept cash payments";
+
+/* Title shown in navigation bar for Cash Payment screen in Profile */
+"sumup_payment_setting_cash_payment_title" = "Cash payments";
+
+/* Placeholder text for the reader attribute not available */
+"sumup_reader_attribute_unknown" = "Unknown";
+
+/* Label displayed when the App is attempting connecting to a card reader */
+"sumup_reader_connecting_text" = "Connecting to card reader";
+
+/* Title displayed when the App is attempting connecting to a card reader */
+"sumup_reader_connecting_title" = "Connecting";
+
+/* Footer text of the reader Update state in card reader component */
+"sumup_reader_home_item_status_update" = "Update device";
+
+"sumup_reader_not_found_message" = "Card reader %@ wasn’t found. Make sure it’s switched on and nearby.";
+
+"sumup_reader_off_and_unplugged_message" = "Make sure the device is switched off and disconnected from the power supply.";
+
+"sumup_reader_off_and_unplugged_title" = "Unplug and switch off";
+
+/* Title showed during during reader transaction, typically after connection and potentially tip on device */
+"sumup_reader_payment" = "Payment";
+
+/* Label displayed when payment was aborted by the client on a card reader (typically during tip on device, starting with SOLO) */
+"sumup_reader_payment_cancelled" = "Payment was cancelled";
+
+/* Title of the button that opens the reader walkthrough from checkout. */
+"sumup_reader_walkthrough_button_title" = "Set up card reader";
+
+/* Title of the reader Inactive state in card reader component */
+"sumup_saved_reader_home_item_status_is_inactive" = "Inactive";
+
+/* Title of the reader Ready state in card reader component */
+"sumup_saved_reader_home_item_status_is_ready" = "Ready";
+
+/* Message to confirm Text-to-Speech is activated */
+"sumup_text_to_speech_activation_message" = "The device is in accessibility mode. You'll be guided through the transaction.";
+
+/* Text-to-Speech to report a failed transaction */
+"sumup_text_to_speech_failed_transaction" = "The transaction didn't go through, and the card was not charged. Please try again.";
+
+/* Text-to-Speech to report a failed transaction for wrong PIN */
+"sumup_text_to_speech_failed_transaction_pin" = "The transaction didn't go through because the PIN entered was incorrect. Please try again.";
+
+/* Text-to-Speech to introduce the transaction to the customer */
+"sumup_text_to_speech_reader_instructions" = "The amount due is %1$@ %2$@. To pay, choose one of the following two options. If you want to make a contactless payment, place your card on the card reader. The device will beep once when your card is recognised. Or pay by inserting your card chip-first and facing upwards into the slot on the top of the reader, and follow the spoken instructions.";
+
+/* Text-to-Speech to ask for PIN during a transaction using Solo Lite */
+"sumup_text_to_speech_solo_lite_pin_instructions" = "You will need to enter your PIN. On the front of the reader, there is a cover with holes to guide you. There are ten holes for digits and three for functions. Press into these holes to enter your PIN. A beep will follow each digit you enter. The three round holes for the function buttons are in the rightmost column. The top is the button that will cancel the payment. Below it is the clear button, which deletes your most recent entry. And below that is the confirm button. The numbers on the keypad are in the three leftmost columns, which have square holes. The keypad has a telephone layout, starting with 1, 2, and 3 from left to right at the top. Please enter your PIN now, then press the confirm button.";
+
+/* Text-to-Speech to ask for PIN during a transaction using Solo */
+"sumup_text_to_speech_solo_pin_instructions" = "You will need to enter your PIN. On the front of the reader, there is a cover with holes to guide you. There are ten holes for digits and three for functions. Press into these holes to enter your PIN. A beep will follow each digit you enter. The top-right button cancel the payment. Below it are the numbers 1 to 9 in a telephone layout of three rows, starting with 1, 2 and 3 from left to right at the top. In the 4th row at the bottom left is the clear button, which deletes your most recent entry. The number zero is at the centre of this row, and the confirm button is on the right. Please enter your PIN now, then press the confirm button.";
+
+/* Text-to-Speech to confirm transaction was successful */
+"sumup_text_to_speech_transaction_success" = "The transaction was successful. Please remove the card.";
+
+/* Text-to-Speech message when the entered PIN is wrong */
+"sumup_text_to_speech_wrong_pin" = "The PIN is incorrect. Please try again.";
+

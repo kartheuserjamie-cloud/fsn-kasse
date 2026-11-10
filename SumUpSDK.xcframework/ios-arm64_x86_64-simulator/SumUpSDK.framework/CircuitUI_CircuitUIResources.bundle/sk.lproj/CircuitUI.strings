@@ -1,0 +1,116 @@
+/* smartling.instruction_comments_enabled = on */
+
+"circuit_navigationHeader_addButton_title" = "Pridať";
+
+"circuit_navigationHeader_backButton_title" = "Späť";
+
+"circuit_navigationHeader_cancelButton_title" = "Zrušiť";
+
+"circuit_navigationHeader_chatButton_title" = "Chat";
+
+"circuit_navigationHeader_closeButton_title" = "Zatvoriť";
+
+"circuit_navigationHeader_deleteButton_title" = "Odstrániť";
+
+"circuit_navigationHeader_discountButton_title" = "Poskytnúť zľavu";
+
+"circuit_navigationHeader_documentButton_title" = "Dokument";
+
+"circuit_navigationHeader_editButton_title" = "Upraviť";
+
+"circuit_navigationHeader_editCategoriesButton_title" = "Upraviť kategórie";
+
+"circuit_navigationHeader_editCategories_title" = "Upraviť kategórie";
+
+"circuit_navigationHeader_filterButton_title" = "Filter";
+
+"circuit_navigationHeader_flashButton_off_title" = "Blesk je vypnutý";
+
+"circuit_navigationHeader_flashButton_on_title" = "Blesk je zapnutý";
+
+"circuit_navigationHeader_helpButton_title" = "Pomoc";
+
+"circuit_navigationHeader_hideButton_title" = "Skryť";
+
+"circuit_navigationHeader_historyButton_title" = "História";
+
+"circuit_navigationHeader_inboxButton_title" = "Schránka";
+
+"circuit_navigationHeader_mailButton_title" = "E-mail";
+
+"circuit_navigationHeader_minimizeButton_title" = "Minimalizovať";
+
+"circuit_navigationHeader_moreButton_title" = "Viac";
+
+"circuit_navigationHeader_printButton_title" = "Vytlačiť";
+
+"circuit_navigationHeader_refreshButton_title" = "Znovu načítať";
+
+"circuit_navigationHeader_reportButton_title" = "Prehľad";
+
+"circuit_navigationHeader_calendarButton_title" = "Kalendár";
+
+"circuit_navigationHeader_saveButton_title" = "Uložiť";
+
+"circuit_navigationHeader_scanBarcodeButton_title" = "Naskenovať čiarový kód";
+
+"circuit_navigationHeader_scanButton_title" = "Skenovať";
+
+"circuit_navigationHeader_scanQRCodeButton_title" = "Naskenovať QR kód";
+
+"circuit_navigationHeader_searchButton_title" = "Vyhľadávanie";
+
+"circuit_navigationHeader_settingsButton_title" = "Nastavenia";
+
+"circuit_navigationHeader_shareButton_title" = "Zdieľať";
+
+"circuit_navigationHeader_showButton_title" = "Zobraziť";
+
+"circuit_segmentedProgressBar_progress_accessibility_label" = "Postup";
+
+"circuit_segmentedProgressBar_progress_accessibility_value" = "Krok %1$d/%2$d";
+
+"circuit_spinner_loading_accessibility_label" = "Prebieha načítavanie";
+
+"circuit_spinner_loading_accessibility_value" = "Prebieha";
+
+"circuit_tierIndicator_plusTier_accessibilityLabel" = "Úroveň Plus";
+
+"circuit_navigationHeader_archiveButton_title" = "Archivovať";
+
+"circuit_barcodeScanner_instructionText_scanBarcode_title" = "Naskenujte čiarový kód";
+
+"circuit_barcodeScanner_instructionText_scanBarcodeOrQRCode_title" = "Naskenujte QR kód alebo čiarový kód";
+
+"circuit_barcodeScanner_instructionText_scanQRCode_title" = "Naskenujte QR kód";
+
+"circuit_textInput_guidance_optionalAnnotation" = " (nepovinné)";
+
+"circuit_textInput_subtitle_characterCountValue" = "Počet znakov: %1$d/%2$d";
+
+"circuit_textInput_clearButton_accessibilityLabel" = "Vymazať text";
+
+"circuit_textInput_validation_required_error" = "Zadajte hodnotu.";
+
+"circuit_textInput_validation_lengthMinimum_error" = "Zadajte aspoň %1$d znaky/znakov";
+
+"circuit_textInput_validation_lengthMaximum_error" = "Zadajte maximálne %1$d znaky/znakov";
+
+"circuit_textInput_validation_lengthExact_error" = "Zadajte presne %1$d znaky/znakov";
+
+"circuit_textInput_validation_lengthRange_error" = "Zadajte %1$d až %2$d znaky/znakov";
+
+"circuit_textInput_validation_numericRange_error" = "Zadajte hodnotu %1$@ až %2$@";
+
+"circuit_textInput_validation_creditCard_error" = "Zadajte platné číslo karty";
+
+"circuit_textInput_validation_allowedCharacterSet_error" = "Použite iba povolené znaky";
+
+"circuit_textInput_validation_equality_error" = "Hodnoty sa musia zhodovať";
+
+"circuit_textInput_validation_predicate_error" = "Zadajte platnú hodnotu";
+
+"circuit_textInput_validation_regex_error" = "Zadajte text v správnom formáte";
+
+"circuit_navigationHeader_rewardsButton_title" = "Odmeny";
+

@@ -1,0 +1,116 @@
+/* smartling.instruction_comments_enabled = on */
+
+"circuit_navigationHeader_addButton_title" = "Lisää";
+
+"circuit_navigationHeader_backButton_title" = "Takaisin";
+
+"circuit_navigationHeader_cancelButton_title" = "Peruuta";
+
+"circuit_navigationHeader_chatButton_title" = "Chat-keskustelu";
+
+"circuit_navigationHeader_closeButton_title" = "Sulje";
+
+"circuit_navigationHeader_deleteButton_title" = "Poista";
+
+"circuit_navigationHeader_discountButton_title" = "Käytä alennusta";
+
+"circuit_navigationHeader_documentButton_title" = "Asiakirja";
+
+"circuit_navigationHeader_editButton_title" = "Muokkaa";
+
+"circuit_navigationHeader_editCategoriesButton_title" = "Muokkaa kategorioita";
+
+"circuit_navigationHeader_editCategories_title" = "Muokkaa kategorioita";
+
+"circuit_navigationHeader_filterButton_title" = "Suodatin";
+
+"circuit_navigationHeader_flashButton_off_title" = "Salama pois päältä";
+
+"circuit_navigationHeader_flashButton_on_title" = "Salama päällä";
+
+"circuit_navigationHeader_helpButton_title" = "Tuki";
+
+"circuit_navigationHeader_hideButton_title" = "Piilota";
+
+"circuit_navigationHeader_historyButton_title" = "Historia";
+
+"circuit_navigationHeader_inboxButton_title" = "Postilaatikko";
+
+"circuit_navigationHeader_mailButton_title" = "Sähköposti";
+
+"circuit_navigationHeader_minimizeButton_title" = "Minimoi";
+
+"circuit_navigationHeader_moreButton_title" = "Lisää";
+
+"circuit_navigationHeader_printButton_title" = "Tulosta";
+
+"circuit_navigationHeader_refreshButton_title" = "Päivitä";
+
+"circuit_navigationHeader_reportButton_title" = "Raportti";
+
+"circuit_navigationHeader_calendarButton_title" = "Kalenteri";
+
+"circuit_navigationHeader_saveButton_title" = "Tallenna";
+
+"circuit_navigationHeader_scanBarcodeButton_title" = "Skannaa viivakoodi";
+
+"circuit_navigationHeader_scanButton_title" = "Etsi";
+
+"circuit_navigationHeader_scanQRCodeButton_title" = "Skannaa QR-koodi";
+
+"circuit_navigationHeader_searchButton_title" = "Hae";
+
+"circuit_navigationHeader_settingsButton_title" = "Asetukset";
+
+"circuit_navigationHeader_shareButton_title" = "Jaa";
+
+"circuit_navigationHeader_showButton_title" = "Näytä";
+
+"circuit_segmentedProgressBar_progress_accessibility_label" = "Edistyminen";
+
+"circuit_segmentedProgressBar_progress_accessibility_value" = "Vaihe %1$d/%2$d";
+
+"circuit_spinner_loading_accessibility_label" = "Ladataan";
+
+"circuit_spinner_loading_accessibility_value" = "Käynnissä";
+
+"circuit_tierIndicator_plusTier_accessibilityLabel" = "Plus-taso";
+
+"circuit_navigationHeader_archiveButton_title" = "Arkistoi";
+
+"circuit_barcodeScanner_instructionText_scanBarcode_title" = "Skannaa viivakoodi";
+
+"circuit_barcodeScanner_instructionText_scanBarcodeOrQRCode_title" = "Skannaa QR-koodi tai viivakoodi";
+
+"circuit_barcodeScanner_instructionText_scanQRCode_title" = "Skannaa QR-koodi";
+
+"circuit_textInput_guidance_optionalAnnotation" = " (valinnainen)";
+
+"circuit_textInput_subtitle_characterCountValue" = "%1$d/%2$d merkkiä";
+
+"circuit_textInput_clearButton_accessibilityLabel" = "Selkoteksti";
+
+"circuit_textInput_validation_required_error" = "Lisää arvo";
+
+"circuit_textInput_validation_lengthMinimum_error" = "Lisää vähintään %1$d merkkiä";
+
+"circuit_textInput_validation_lengthMaximum_error" = "Lisää enintään %1$d merkkiä";
+
+"circuit_textInput_validation_lengthExact_error" = "Lisää tarkalleen %1$d merkkiä";
+
+"circuit_textInput_validation_lengthRange_error" = "Lisää %1$d–%2$d merkkiä";
+
+"circuit_textInput_validation_numericRange_error" = "Lisää arvo väliltä %1$@–%2$@";
+
+"circuit_textInput_validation_creditCard_error" = "Lisää kelvollinen kortin numero";
+
+"circuit_textInput_validation_allowedCharacterSet_error" = "Käytä vain sallittuja merkkejä";
+
+"circuit_textInput_validation_equality_error" = "Arvojen on täsmättävä";
+
+"circuit_textInput_validation_predicate_error" = "Lisää kelvollinen arvo";
+
+"circuit_textInput_validation_regex_error" = "Kirjoita teksti oikeassa muodossa";
+
+"circuit_navigationHeader_rewardsButton_title" = "Palkinnot";
+

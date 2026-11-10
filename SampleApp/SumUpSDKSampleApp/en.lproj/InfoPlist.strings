@@ -1,0 +1,7 @@
+/* Localized versions of Info.plist keys */
+
+"NSLocationWhenInUseUsageDescription" = "To provide a secure payment service, we need to know your location.\nWithout location information, you cannot accept payments using this app.";
+
+"NSBluetoothPeripheralUsageDescription" = "The app needs to connect to Bluetooth peripherals to detect the SumUp Card Terminal correctly. Please confirm with \"OK\" as you cannot use your card reader otherwise.";
+
+"NSBluetoothAlwaysUsageDescription" = "The app needs to connect to Bluetooth peripherals to detect the SumUp Card Terminal correctly. Please confirm with \"OK\" as you cannot use your card reader otherwise.";

@@ -1,0 +1,116 @@
+/* smartling.instruction_comments_enabled = on */
+
+"circuit_navigationHeader_addButton_title" = "Toevoegen";
+
+"circuit_navigationHeader_backButton_title" = "Terug";
+
+"circuit_navigationHeader_cancelButton_title" = "Annuleren";
+
+"circuit_navigationHeader_chatButton_title" = "Chatten";
+
+"circuit_navigationHeader_closeButton_title" = "Sluiten";
+
+"circuit_navigationHeader_deleteButton_title" = "Verwijderen";
+
+"circuit_navigationHeader_discountButton_title" = "Korting toepassen";
+
+"circuit_navigationHeader_documentButton_title" = "Document";
+
+"circuit_navigationHeader_editButton_title" = "Bewerken";
+
+"circuit_navigationHeader_editCategoriesButton_title" = "Categorieën bewerken";
+
+"circuit_navigationHeader_editCategories_title" = "Categorieën bewerken";
+
+"circuit_navigationHeader_filterButton_title" = "Filteren";
+
+"circuit_navigationHeader_flashButton_off_title" = "Flits uit";
+
+"circuit_navigationHeader_flashButton_on_title" = "Flits aan";
+
+"circuit_navigationHeader_helpButton_title" = "Hulp";
+
+"circuit_navigationHeader_hideButton_title" = "Verbergen";
+
+"circuit_navigationHeader_historyButton_title" = "Geschiedenis";
+
+"circuit_navigationHeader_inboxButton_title" = "Postvak IN";
+
+"circuit_navigationHeader_mailButton_title" = "E-mail";
+
+"circuit_navigationHeader_minimizeButton_title" = "Minimaliseren";
+
+"circuit_navigationHeader_moreButton_title" = "Meer";
+
+"circuit_navigationHeader_printButton_title" = "Printen";
+
+"circuit_navigationHeader_refreshButton_title" = "Vernieuwen";
+
+"circuit_navigationHeader_reportButton_title" = "Rapport";
+
+"circuit_navigationHeader_calendarButton_title" = "Agenda";
+
+"circuit_navigationHeader_saveButton_title" = "Opslaan";
+
+"circuit_navigationHeader_scanBarcodeButton_title" = "Barcode scannen";
+
+"circuit_navigationHeader_scanButton_title" = "Zoeken";
+
+"circuit_navigationHeader_scanQRCodeButton_title" = "QR-code scannen";
+
+"circuit_navigationHeader_searchButton_title" = "Zoek";
+
+"circuit_navigationHeader_settingsButton_title" = "Instellingen";
+
+"circuit_navigationHeader_shareButton_title" = "Delen";
+
+"circuit_navigationHeader_showButton_title" = "Weergeven";
+
+"circuit_segmentedProgressBar_progress_accessibility_label" = "Voortgang";
+
+"circuit_segmentedProgressBar_progress_accessibility_value" = "Stap %1$d van %2$d";
+
+"circuit_spinner_loading_accessibility_label" = "Laden";
+
+"circuit_spinner_loading_accessibility_value" = "In behandeling";
+
+"circuit_tierIndicator_plusTier_accessibilityLabel" = "Plusniveau";
+
+"circuit_navigationHeader_archiveButton_title" = "Archiveren";
+
+"circuit_barcodeScanner_instructionText_scanBarcode_title" = "Streepjescode scannen";
+
+"circuit_barcodeScanner_instructionText_scanBarcodeOrQRCode_title" = "QR-code of streepjescode scannen";
+
+"circuit_barcodeScanner_instructionText_scanQRCode_title" = "QR-code scannen";
+
+"circuit_textInput_guidance_optionalAnnotation" = " (optioneel)";
+
+"circuit_textInput_subtitle_characterCountValue" = "%1$d/%2$d tekens";
+
+"circuit_textInput_clearButton_accessibilityLabel" = "Tekst wissen";
+
+"circuit_textInput_validation_required_error" = "Geef de hoogte van de korting op";
+
+"circuit_textInput_validation_lengthMinimum_error" = "Voer minimaal %1$d tekens in";
+
+"circuit_textInput_validation_lengthMaximum_error" = "Voer %1$d of minder tekens in";
+
+"circuit_textInput_validation_lengthExact_error" = "Voer exact %1$d tekens in";
+
+"circuit_textInput_validation_lengthRange_error" = "Voer tussen de %1$d en de %2$d tekens in";
+
+"circuit_textInput_validation_numericRange_error" = "Voer een waarde in tussen de %1$@ en de %2$@";
+
+"circuit_textInput_validation_creditCard_error" = "Voer een geldig kaartnummer in";
+
+"circuit_textInput_validation_allowedCharacterSet_error" = "Gebruik alleen toegestane tekens";
+
+"circuit_textInput_validation_equality_error" = "Waarden moeten overeenkomen";
+
+"circuit_textInput_validation_predicate_error" = "Voer een geldige waarde in";
+
+"circuit_textInput_validation_regex_error" = "Voer tekst in het juiste formaat in";
+
+"circuit_navigationHeader_rewardsButton_title" = "Beloningen";
+

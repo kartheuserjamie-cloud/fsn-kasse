@@ -1,0 +1,116 @@
+/* smartling.instruction_comments_enabled = on */
+
+"circuit_navigationHeader_addButton_title" = "Добавяне";
+
+"circuit_navigationHeader_backButton_title" = "Назад";
+
+"circuit_navigationHeader_cancelButton_title" = "Отмяна";
+
+"circuit_navigationHeader_chatButton_title" = "Чат";
+
+"circuit_navigationHeader_closeButton_title" = "Затваряне";
+
+"circuit_navigationHeader_deleteButton_title" = "Изтриване";
+
+"circuit_navigationHeader_discountButton_title" = "Прилагане на отстъпка";
+
+"circuit_navigationHeader_documentButton_title" = "Документ";
+
+"circuit_navigationHeader_editButton_title" = "Редактиране";
+
+"circuit_navigationHeader_editCategoriesButton_title" = "Редактиране на категории";
+
+"circuit_navigationHeader_editCategories_title" = "Редактиране на категории";
+
+"circuit_navigationHeader_filterButton_title" = "Филтър";
+
+"circuit_navigationHeader_flashButton_off_title" = "Изключи светкавица";
+
+"circuit_navigationHeader_flashButton_on_title" = "Включи светкавица";
+
+"circuit_navigationHeader_helpButton_title" = "Помощ";
+
+"circuit_navigationHeader_hideButton_title" = "Скриване";
+
+"circuit_navigationHeader_historyButton_title" = "История";
+
+"circuit_navigationHeader_inboxButton_title" = "Входяща поща";
+
+"circuit_navigationHeader_mailButton_title" = "Поща";
+
+"circuit_navigationHeader_minimizeButton_title" = "Минимизиране";
+
+"circuit_navigationHeader_moreButton_title" = "Още";
+
+"circuit_navigationHeader_printButton_title" = "Отпечатване";
+
+"circuit_navigationHeader_refreshButton_title" = "Обновяване";
+
+"circuit_navigationHeader_reportButton_title" = "Отчет";
+
+"circuit_navigationHeader_calendarButton_title" = "Календар";
+
+"circuit_navigationHeader_saveButton_title" = "Запазване";
+
+"circuit_navigationHeader_scanBarcodeButton_title" = "Сканиране на баркод";
+
+"circuit_navigationHeader_scanButton_title" = "Сканиране";
+
+"circuit_navigationHeader_scanQRCodeButton_title" = "Сканиране на QR код";
+
+"circuit_navigationHeader_searchButton_title" = "Търсене";
+
+"circuit_navigationHeader_settingsButton_title" = "Настройки";
+
+"circuit_navigationHeader_shareButton_title" = "Споделяне";
+
+"circuit_navigationHeader_showButton_title" = "Показване";
+
+"circuit_segmentedProgressBar_progress_accessibility_label" = "Напредък";
+
+"circuit_segmentedProgressBar_progress_accessibility_value" = "Стъпка %1$d от %2$d";
+
+"circuit_spinner_loading_accessibility_label" = "Зареждане";
+
+"circuit_spinner_loading_accessibility_value" = "Качване...";
+
+"circuit_tierIndicator_plusTier_accessibilityLabel" = "Ниво Plus";
+
+"circuit_navigationHeader_archiveButton_title" = "Архивиране";
+
+"circuit_barcodeScanner_instructionText_scanBarcode_title" = "Сканиране на баркод";
+
+"circuit_barcodeScanner_instructionText_scanBarcodeOrQRCode_title" = "Сканиране на QR код или баркод";
+
+"circuit_barcodeScanner_instructionText_scanQRCode_title" = "Сканиране на QR код";
+
+"circuit_textInput_guidance_optionalAnnotation" = " (незадължително)";
+
+"circuit_textInput_subtitle_characterCountValue" = "%1$d / %2$d знака";
+
+"circuit_textInput_clearButton_accessibilityLabel" = "Изчистване на текст";
+
+"circuit_textInput_validation_required_error" = "Моля, въведете стойност";
+
+"circuit_textInput_validation_lengthMinimum_error" = "Въведете поне %1$d знака";
+
+"circuit_textInput_validation_lengthMaximum_error" = "Въведете %1$d знака или по-малко";
+
+"circuit_textInput_validation_lengthExact_error" = "Въведете точно %1$d знака";
+
+"circuit_textInput_validation_lengthRange_error" = "Въведете между %1$d и %2$d знака";
+
+"circuit_textInput_validation_numericRange_error" = "Въведете стойност между %1$@ и %2$@";
+
+"circuit_textInput_validation_creditCard_error" = "Въведете валиден номер на картата";
+
+"circuit_textInput_validation_allowedCharacterSet_error" = "Използвайте само разрешени знаци";
+
+"circuit_textInput_validation_equality_error" = "Стойностите трябва да съвпадат";
+
+"circuit_textInput_validation_predicate_error" = "Въведете валидна стойност";
+
+"circuit_textInput_validation_regex_error" = "Въведете текст в правилния формат";
+
+"circuit_navigationHeader_rewardsButton_title" = "Награди";
+

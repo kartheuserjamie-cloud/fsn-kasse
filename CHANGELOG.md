@@ -1,0 +1,434 @@
+# SumUp iOS SDK Changelog
+
+## Version 7.2.0
+
+* [IMPROVEMENT] Offline Payments can now be enabled without first completing an online transaction on the same iOS device.
+* [IMPROVEMENT] The Offline Payments availability check is now more reliable.
+* [IMPROVEMENT] Faster Offline Payments
+  * The tap-card screen now appears sooner on the card reader while using Offline Payments.
+* [IMPROVEMENT] Tap to Pay on iOS 26 and above will display Apple-provided education screens.
+* [RENAMED] `SMPReaderStatus` is now known as `ReaderStatus` in Swift. It is unchanged in Objective-C.
+* [REMOVED] The SDK no longer links against `CallKit.framework`.
+  * Resolves [#191](https://github.com/sumup/sumup-ios-sdk/issues/191) and [#193](https://github.com/sumup/sumup-ios-sdk/issues/193).
+* [REMOVED] Removed the `presentCheckoutPreferencesFromViewController:animated:completion:` method, deprecated in 6.2.0. Please use `presentCardReaderSettingsFromViewController:animated:completion:` instead.
+* [REMOVED] Removed the deprecated `setupWithAPIKey:` method. Please use `setupWithAffiliateKey:` instead.
+* [REMOVED] CocoaPods support.
+
+> [!CAUTION]
+> CocoaPods is no longer a supported integration method as of 7.2.0. Existing CocoaPods integrations must migrate before updating.
+
+## Version 7.1.2
+
+* [IMPROVEMENT] Improved Offline Payments availability
+  * Offline Payments are now more reliably kept available after a cancelled or timed-out card reader transaction.
+* [IMPROVEMENT] Extended Offline Payments card compatibility
+  * Offline Payments now support a wider range of payment cards from the same card schemes that are already supported.
+* [IMPROVEMENT] Miscellaneous bug fixes and enhancements
+
+> [!CAUTION]
+> Do not downgrade to an earlier SDK version if there are Offline Payments that have not been uploaded yet.
+>
+> If you need to downgrade, follow these steps:
+>   1. Upload any pending Offline Payments
+>   2. Delete the app
+>   3. Install the app again using the previous SDK version
+
+## Version 7.1.1
+
+* [IMPROVEMENT] Miscellaneous bug fixes and enhancements
+
+## Version 7.1.0
+
+* [UPDATE] Updated Sample App
+  * An updated Sample App is provided to help you get quickly up to speed adding features from the SumUp SDK to your app.
+  * We welcome your ongoing feedback in [GitHub Issues](https://github.com/sumup/sumup-ios-sdk/issues/new). If you experience a problem or have any questions not covered in documentation, we are available to help.
+* [ADDED] Custom Tip Percentages Configuration
+  * Integrators can now configure the tip percentage options (up to 3) presented to customers during checkout. This replaces the hardcoded defaults (10%, 15%, 20%) with values more relevant to specific business use cases.
+    Validation Rules:
+    1. Accepts a list of 1 to 3 positive integers.
+    2. Maximum value per option is 99%.
+    3. Duplicate values are automatically rejected.
+    4. Options are automatically sorted from lowest to highest in the UI.
+  * If no custom percentages are provided, the SDK will continue to use the standard 10%, 15%, and 20% options.
+* [IMPROVEMENT] Enhanced Offline Session Management
+  * The SDK now automatically attempts to return online and upload the transaction batch as soon as a session limit (transaction count or time window) is reached.
+* [IMPROVEMENT] Miscellaneous bug fixes and enhancements
+
+## Version 7.0.0
+
+* [ADDED] Introduction of Offline Payment Support for Solo and Solo Lite Card Reader models.
+  * This feature is subject to specific limitations and minimum compatibility requirements. Further information is available in [`OFFLINE_PAYMENTS.md`](./OFFLINE_PAYMENTS.md).
+  * Please contact [`integrations@sumup.com`](mailto:integrations@sumup.com) to enable Offline Payments for your SumUp Merchant Account.
+* [IMPROVEMENT] Miscellaneous bug fixes and enhancements
+
+## Version 6.2.2
+
+* [FIXED] Now using the correct swift-tools-version version to support iOS 16. All changes mentioned in v6.2.1 are available in this release.
+
+## Version 6.2.1
+
+* [IMPROVEMENT] Fixed: when using the SDK in an app built with Xcode 26, the Card Reader Settings screen does not respond to taps.
+* [IMPROVEMENT] Removed shared button on the receipt screen. This button crashed on tap and wasn't supposed to be part of the view hierarchy.
+
+## Version 6.2.0
+
+* [IMPROVEMENT] The tap-card screen now appears much faster when using Solo Lite and Solo card readers with updated firmware
+* [IMPROVEMENT] An issue was fixed that could cause Solo card readers to take longer when transacting when the reader is initially sleeping
+* [ADDED] A new `presentCardReaderSettingsFromViewController:animated:completion:` method and updated UI, replacing the old `presentCheckoutPreferencesFromViewController:animated:completion:` method, which is now deprecated.
+* [ADDED] The Tap to Pay on iPhone payment method now supports Croatia, Estonia, Latvia, Lithuania, Norway, Spain
+* [REMOVED] Minimum deployment target is now iOS 16 (was iOS 15)
+* [IMPROVEMENT] Miscellaneous bug fixes and enhancements
+
+## Version 6.1.2
+
+* [FIXED] Now using the correct swift-tools-version version to support iOS 15. All changes mentioned in v6.1.1 are available in this release.
+
+## Version 6.1.1
+
+* [IMPROVEMENT] Faster Solo/Solo Lite Bluetooth connection when starting a transaction
+* [ADDED] Credit/debit selection and installments can now be programmatically set without needing the SumUp UI to prompt the user
+* [REMOVED] The built-in UI to prompt for credit/debit selection has been deprecated. Please migrate your app to use programmatic credit/debit selection instead.
+* [ADDED] It is now possible to cancel the transaction from within the app (Solo and Solo Lite card readers only)
+* [ADDED] Tap to Pay on iPhone now also supports Austria, Chile, Czech Republic, Finland, Hungary, Poland, Portugal, Romania, Sweden, Switzerland
+* [ADDED] Solo Lite will require secure bluetooth pairing between the mobile device and the card reader in order to pair. During a first pairing, the mobile and reader will show a 6 digit code, which must be confirmed on both devices in order to proceed.
+* [REMOVED] Minimum deployment target is now iOS 15 (was iOS 14)
+* [IMPROVEMENT] Bluetooth permissions are no longer prompted-for if only Tap to Pay on iPhone is used as a payment method
+* [IMPROVEMENT] Miscellaneous bug fixes and enhancements
+
+## Version 6.0.0
+
+* [ADDED] New payment method: Tap to Pay on iPhone
+* [ADDED] New `paymentMethod` property on `SMPCheckoutRequest`. This defaults to `cardReader` but may be set to `tapToPay`.
+* [REMOVED] `SMPPaymentOptions` was deleted. This was previously deprecated and is no longer used.
+* [IMPROVEMENTS] Minor fixes for unified Black and White theme
+
+## Version 5.0.0
+
+* [ADDED] Support for the Solo Lite card reader
+* [ADDED] Support for the Australian Dollar and Mexican Pesos currencies: `SMPCurrencyCodeAUD`, `SMPCurrencyCodeMXN`
+* [ADDED] Introduction of a unified Black and White theme that represents "One Design Language" across all SumUp products
+* [ADDED] Support for running in Simulator with ARM64 architecture
+* [REMOVED] Unused `AirRegister` directory 
+
+## Version 4.4.0
+
+* [REMOVED] Minimum deployment target is now iOS 14 (was iOS 12)
+* [FIXED] A crash when using AirPrint on devices running iOS 17
+* [FIXED] A crash when using UIDatePicker on devices running iOS 17
+* [IMPROVEMENT] Miscellaneous bug fixes and enhancements
+
+## Version 4.3.5
+
+* [FIXED] A crash when using AirPrint on devices running iOS 17
+* [FIXED] A crash when using UIDatePicker on devices running iOS 17
+* [IMPROVEMENT] Miscellaneous bug fixes and enhancements
+
+## Version 4.3.4
+
+* [BUGFIX] Tip on Card Reader feature: bug fixes and stability improvements
+
+## Version 4.3.3
+
+* [IMPROVEMENT] Tip on Card Reader (TCR) feature, allowing tips to optionally be prompted-for on supported card readers' displays instead of on the iPhone/iPad display.
+* [IMPROVEMENT] Connecting and disconnecting multiple times to a Solo card reader from the Checkout Preferences screen could cause it to get into a state where connection was not possible anymore. This issue has been fixed.
+* [IMPROVEMENT] Solo card reader support in the SDK has left beta phase.
+* [BUGFIX] Removed internal use of UIAppearance to override colors of navigation bars. This caused issues with host apps.
+
+## Version 4.3.1
+
+* [BUGFIX] Podspec fix. The release v4.3.0 does not work with Cocoapods due to an issue in the Podspec file. All changes mentioned in v4.3.0 are available in this release.
+
+## Version 4.3.0
+
+* [ADDED] Starting with firmware version 1.0.1.84, Air card readers with serial numbers starting with 108, 109 or later require iOS SDK 4.3.0 and later. Please update to the latest iOS SDK version if you need to support these readers.
+* [ADDED] Introduction of the support for SumUp 'Solo' card reader (beta phase)
+* [ADDED] Prompt may appear after a checkout to recommend updating card reader firmware
+* [IMPROVEMENT] Refreshed SumUp Brand Design Language for failed, successful and receipt screens
+* [IMPROVEMENT] More reliable handling of card reader connectivity issues during checkout
+* [IMPROVEMENT] Tip amount may be shown at the top of the screen during checkout
+* [IMPROVEMENT] Improvements to the Bluetooth scanning screen
+* [IMPROVEMENT] Improvements to some card reader animations
+* [REMOVED] Payment links are no longer supported as a payment method
+* [REMOVED] Switch to enable/disable card reader removed from the Checkout Preferences screen
+* [REMOVED] Minimum deployment target is now iOS 12 (was iOS 10)
+
+## Version 4.2.1
+* [BUGFIX] Internal bug fixes and improvements
+
+## Version 4.2.0
+* [ADDED] Add `SMPSkipScreenOptionFail` to `SMPSkipScreenOptions` to allow for skipping the screen
+  shown at the end of a failed transaction.
+* [ADDED] Dedicated error code for handling invalid decimal values for currencies - `SMPSumUpSDKErrorInvalidAmountDecimals`
+* [UPCOMING] Dropping support for iOS 10 and iOS 11
+
+## Version 4.1.1
+
+* [BUGFIX] Podspec fix. The release v4.1.0 does not work with Cocoapods due to an issue in the Podspec file. All changes mentioned in v4.1.0 are available in this release.
+
+## Version 4.1.0
+
+* [ADDED] Introduced support for Brazilian PIN+ Contactless Card Reader.
+* [REMOVED] Dropped support for PIN+ card reader in cable mode. Merchants are advised to switch from cable to Bluetooth connection to continue using their PIN+ reader.
+* [IMPROVEMENT] Introduced an error code for [duplicate foreign transaction ID](https://github.com/sumup/sumup-ios-sdk#transaction-identifier) - SMPSumUpSDKErrorDuplicateForeignID & for invalid access token - SMPSumUpSDKErrorInvalidAccessToken. See [API documentation](https://developer.sumup.com/rest-api/#tag/Transactions) for details.
+* [IMPROVEMENT] Miscellaneous bug fixes and UI enhancements.
+
+## Version 4.0.1
+
+* [UPDATE] Replaced deprecated `UIAlertView` usage with `UIAlertController`. (Solves [issue #93](https://github.com/sumup/sumup-ios-sdk/issues/93))
+
+## Version 4.0.0
+
+* [REMOVED] Payment options provided when creating a checkout request will be ignored and default to `.any`. Options presented will be governed by merchant settings.
+* [ADDED] Added Swift Package Manager support. See [integration instructions](README.md#integration-via-swift-pm).
+* [BUGFIX] Remove pre-release version from CFBundleShortVersionString in XCFramework's Info.plist to pass ASC [validation](https://developer.apple.com/documentation/bundleresources/information_property_list/cfbundleshortversionstring) which requires this to be a period-separated list of at most three non-negative integers.
+* [UPDATE] Deprecated method `+[SMPSumUpSDK checkoutWithRequest:fromViewController:completionBlock:]` has been removed from the interface, please use `+[SMPSumUpSDK checkoutWithRequest:fromViewController:completion:]` instead.
+
+Sample application:
+
+* [UPDATE] Do not provide payment options when creating a checkout request.
+
+## Version 4.0.0-beta.1
+
+* [CHANGED] The SumUp SDK is now a dynamic framework and is shipped as an XCFramework. If you had previous versions installed, check out the [Migration Guide](MIGRATION.md).
+* [CHANGED] The `SMPSharedResources.bundle` is now part of the XCFramework and should
+not be added to the app target
+* :warning: The latest Carthage (0.35.0) is not yet compatible with
+XCFrameworks ([#2799](https://github.com/Carthage/Carthage/issues/2799))
+
+Sample application:
+
+* [UPDATE] Remove `-ObjC` from Other Linker Flags
+
+## Version 3.5
+
+This is the last version published as a static library. Upcoming versions will be provided as
+an xcframework to be compatible with future versions of Xcode.
+
+* [UPDATE] Deployment target raised to iOS 10.0
+* [UPDATE] This version of the SumUp SDK is built on Xcode 11.3.1 against iOS SDK 13.2
+* [UPDATE] Does not link against UIWebView to be compliant with [ASC policy](https://developer.apple.com/news/?id=12232019b)
+* [UPDATE] Sample apps' deployment target raised to iOS 10.0
+
+## Version 3.4
+
+*SDK versions v3.3 and earlier are currently not able to connect to SumUp on iOS 13.3 Beta 1 and Beta 2.*
+
+* [UPDATE] Address an issue with changes to [trusted certificates introduced with iOS 13](https://support.apple.com/en-us/HT210176)
+* [BUGFIX] Fix an issue where the host app's bundle name would not be displayed properly. Reported as part of [issue #84](https://github.com/sumup/sumup-ios-sdk/issues/84)
+
+## Version 3.3
+
+* [UPDATE] This version of the SumUp SDK is ready to be used with
+  Xcode 11 and the iOS 13 SDK
+* [ADDED] Added support for the latest generation of SumUp's Air and PIN+ readers
+* [BUGFIX] Fix a crash in checkout preferences when trying to disable all options
+
+## Version 3.2
+
+* [UPDATE] Style updated to match our iOS app v2.0
+* [UPDATE] Base SDK updated to iOS 12, built with Xcode 10.1
+* [IMPROVEMENT] Location permissions are handled when presenting the
+  login view controller. The merchant is asked to grant location
+  permissions if needed and restricted from logging in when denied.
+* [IMPROVEMENT] Added a section to the README on how to
+  [integrate with Carthage](https://github.com/sumup/sumup-ios-sdk/blob/master/README.md#integration-via-carthage).
+  Heavily inspired by [Zyphrax's](https://github.com/Zyphrax) help in
+  [PR #42](https://github.com/sumup/sumup-ios-sdk/pull/43) addressing
+  [issue #37](https://github.com/sumup/sumup-ios-sdk/issues/37).
+* [BUGFIX] Fix a crash in checkout when trying to use an audio
+  connection to a PIN+ or C&S readers when microphone permissions have
+  been denied.
+* [ADDED] Added support for the SumUp 3G reader
+
+## Version 3.1
+
+* [CHANGED] If you integrate the SDK manually, please link to the `ExternalAccessory`
+  framework as per our [setup guide](README.md)
+* [UPDATE] Deployment target raised to iOS 9.0
+* [CHANGED] The login mask does not show the "Reveal password" button anymore
+* [ADDED] SumUp [Air Register](AirRegister/README.md) support
+* [IMPROVEMENT] Dedicated error code for currency mismatches – please refer to our
+  [README](README.md) for hints regarding correct currency handling
+* [[IMPROVEMENT]](https://github.com/sumup/sumup-ios-sdk/issues/11) Populate
+  `NSLocalizedDescriptionKey` in SDK errors – you can still access
+  `NSUnderlyingErrorKey` for more details regarding the underlying error
+* [ADDED] New currency code constant (`CLP`) and new languages (`es-CL`, `et`)
+
+## Version 3.0
+
+* [UPDATE] Update target SDK to iOS 11, deployment target raised to iOS 8.0
+* [REMOVED] Drop support for audio connection to first generation PIN+ devices.
+  This implies that the `YTLibResources.bundle` has been removed.
+* [IMPROVEMENT] Add module map for Swift integration without bridging headers
+* [IMPROVEMENT] Prefer readonly properties over methods to improve Swift signatures
+* [ADDED] Add CocoaPods integration support – use `pod SumUpSDK` in your Podfile
+
+Sample application:
+
+* [UPDATE] Update deployment target of Obj-C app to iOS 8
+* [UPDATE] AVFoundation is linked as required since weak linking was only needed
+  when running on iOS 5
+* [IMPROVEMENT] Swift sample app uses modular imports instead of bridging headers
+
+## Transition Guide to 3.0
+
+When improving imported Swift names we took the opportunity to rename
+and prefix some classes and enums. We've also renamed the SDK to
+SumUpSDK to make it easier to integrate with CocoaPods.
+Migrating your code base is easy.
+
+* Remove the `SumupSDK.embeddedframework` and add the new
+  one called `SumUpSDK.embeddedframework`. Make sure your target still links
+  against the framework and still copies the resource bundle.
+* Rename your imports `<SumupSDK/SumupSDK.h>` to `<SumUpSDK/SumUpSDK.h>`
+  * If your project uses modules, you can use `@import SumUpSDK;` in Objective-C
+  * Swift projects should always use `import SumUpSDK` instead global bridging header imports
+* Rename all occurrences of `SumUpCompletionBlock` to `SMPCompletionBlock`
+* In ObjC:
+  - rename all case-sensitive occurrences of
+  `SumupSDK` to `SMPSumUpSDK` (except for imports, see above),
+* In Swift:
+  - rename all case-sensitive occurrences of `SumupSDK` and `SMPSumupSDK`
+  to `SumUpSDK`
+  - remove trailing parantheses from `SumUpSDK`'s `isLoggedIn`,
+  `checkoutInProgress`, `bundleVersion `, and `bundleVersionShortString`
+  - rename `SMPSkipScreenOptions` to `SkipScreenOptions`
+
+## Version 2.3.2
+
+* [BUGFIX] Fix a crash in checkout on iPad Pro when building against iOS 11
+* [IMPROVEMENT] Fix an outdated link to API docs.
+  See [issue #49](https://github.com/sumup/sumup-ios-sdk/issues/49)
+
+
+## Version 2.3.1
+
+* [IMPROVEMENT] Fix layout issues in login and checkout when building against iOS 11
+* [IMPROVEMENT] Add comment to point out that `setupWithAPIKey:`
+  needs to be called on the main thread.
+  See https://github.com/sumup/sumup-ios-sdk/issues/46
+
+
+## Version 2.3
+
+* [IMPROVEMENT] Support for future SumUp terminal.
+* [ADDED] Add `SMPSkipScreenOptions` to allow for skipping the screen
+  shown at the end of a successful transaction.
+* [ADDED] Add `-[SMPCheckoutRequest tipAmount]` to provide an additional
+  tip amount to be added to the total in checkout.
+
+  Sample application:
+
+* [ADDED] Add option to skip the receipt screen by setting the
+  appropriate `SMPSkipScreenOptions` of the checkout request.
+* [ADDED] Add option to specify tip amount.
+* [IMPROVEMENT] Convert to Auto Layout
+
+## Version 2.2
+
+* [BUGFIX] Fix a crash when trying to re-connect to an Air/PIN+ terminal,
+  see [issue #33](https://github.com/sumup/sumup-ios-sdk/issues/33)
+* [ADDED] Add `+[SumupSDK prepareForCheckout]` to prepare the SDK when a
+  checkout attempt is imminent.
+* [ADDED] Add `+[SumupSDK testSDKIntegration]` to validate your integration.
+  Please do not call in Release builds but only in development.
+* [IMPROVEMENT] Speed up wake on Bluetooth
+* [IMPROVEMENT] Fix an issue where subsequent checkout attempts would keep
+  failing when BT connection to Air/PIN+ Terminal has been lost during checkout.
+
+Sample application:
+
+* [ADDED] Tapping "Next" on the keyboard when entering an amount will wake a
+  connected terminal by calling `+[SumupSDK prepareForCheckout]`.
+* [ADDED] Run `+[SumupSDK testSDKIntegration]` when building in
+  Debug configuration.
+
+## Version 2.1
+
+* [ADDED] Provide method to let merchants change their checkout preferences
+  `+[SumupSDK presentCheckoutPreferencesFromViewController:animated:completion:]`
+
+Sample application:
+
+* [ADDED] Add button to present checkout preferences
+* [BUGFIX] Add missing `-ObjC` linker flag to Swift sample app
+
+## Version 2.0
+
+* [IMPROVEMENT] Support latest Air and Air Lite terminals
+* [IMPROVEMENT] Hosting app is no longer required to support any landscape
+  device orientation on iPhone
+* [IMPROVEMENT] Assert that SMPSharedResources is available when setting up SDK
+  on simulator.
+* [ADDED] Swift sample app
+* [ADDED] Includes upcoming SSL certificate - Certificates included in any
+  previous SDK version will expire Friday, 24th Feb 2017
+
+## Version 1.3
+
+**Deployment target changed to iOS 6.**
+
+* [UPDATE] Base SDK is iOS 9.3, deployment target is iOS 6
+* [ADDED] Provide additional information on transaction and payment
+  instrument in `-[SMPCheckoutResult additionalInfo]`.
+* [ADDED] New terminal including US support
+* [BUGFIX] Fix an issue where some C&S transactions and mobile payments
+  would incorrectly be reported as failed
+* [IMPROVEMENT] Improve layout on iPhone 6, iPhone 6 Plus, and iPad Pro
+* [IMPROVEMENT] Match style of SumUp iOS app version 1.60 and later
+* [IMPROVEMENT] Improve support of Wake-on-Bluetooth PIN+ readers
+* [IMPROVEMENT] Add nullability annotations
+* [IMPROVEMENT] Prefix some internal classes to avoid duplicated symbols,
+  see [issue 15](https://github.com/sumup/sumup-ios-sdk/issues/15).
+
+Sample application:
+
+* [UPDATE] Application supports large screens
+* [UPDATE] Deployment target has been raised to iOS 6
+* [IMPROVEMENT] Remove `-w` in other linker flags and hint from README.
+* [IMPROVEMENT] Add NSBluetoothPeripheralUsageDescription to Info.plist
+
+## Version 1.2.2
+
+* [ADDED] `+[SumupSDK loginWithToken:completion:]` provides a way to log in a
+merchant with an access token acquired using the
+[authentication API](https://sumup.com/integration#APIAuth).
+* [IMPROVEMENT] Always provide an error object if login fails in
+`+[SumupSDK presentLoginFromViewController:animated:completionBlock]`
+* [IMPROVEMENT] no need to link against `stdc++` anymore
+
+## Version 1.2.1
+* [IMPROVEMENT] Rename SBJson to [avoid conflicts](https://github.com/sumup/sumup-ios-sdk/issues/1).
+* [UPDATE] Remove CFBundleExecutable entries from info.plist files of bundles to [fix ITMS-90535 error when submitting to iTC](https://github.com/sumup/sumup-ios-sdk/issues/4).
+* [UPDATE] Add `-w` to `OTHER_LDFLAGS` of sample App to work around [linker warnings](http://stackoverflow.com/a/32543155).
+
+## Version 1.2
+**Important**: `AVFoundation` needs to be linked as **optional** if your deployment target is iOS 5.x
+
+* [ADDED] `+[SumupSDK checkoutWithRequest:fromViewController:completion:]` returns the transaction code as well as the status of the checkout process.
+* [ADDED] SMPCheckoutRequest can pass a foreign transaction ID to be associated with the transaction. Maximum length is 128 characters.
+* [ADDED] Supports latest PIN+ readers and wake on bluetooth
+* [IMPROVEMENT] Simplifies layout of sample code
+* [IMPROVEMENT] Clarified usage of currency code in checkout by passing current merchant's transaction code in sample code.
+* [DEPRECATED] `+[SumupSDK checkoutWithRequest:fromViewController:completionBlock:]` is deprecated
+* [DEPRECATED] The sandbox environment is not supported anymore. Please get in touch and we will create a sandboxed test account for you.
+* [REMOVED] Currency RUB is no longer supported
+
+Needs to be linked against `Accelerate` framework.
+
+### Version 1.1
+* [UPDATE] Built on iOS 8.1
+* [UPDATE] slices for armv7 arm64, i386 and x86_64
+* [UPDATE] add `NSLocationWhenInUseUsageDescription` to sample app's Info.plist file and to Getting Started section
+* [BUGFIX] accept WhenInUse location usage permission
+
+### Version 1.0.2
+* [BUGFIX] Stability improvements
+
+### Version 1.0.1
+* [UPDATE] Return an error in +[SumupSDK checkoutWithRequest:fromViewController:completionBlock:] if merchant is not logged in.
+* [UPDATE] Return an error in +[SumupSDK checkoutWithRequest:fromViewController:completionBlock:] if another checkout is in progress.
+* [BUGFIX] Fix connection to server in sandbox mode.
+
+### Version 1.0
+Initial version to support PIN+.

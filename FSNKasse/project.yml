@@ -1,0 +1,63 @@
+name: FSNKasse
+options:
+  bundleIdPrefix: de.femboysupportnetwork
+  deploymentTarget:
+    iOS: "16.0"
+  developmentLanguage: de
+settings:
+  base:
+    SWIFT_VERSION: "5.0"
+    MARKETING_VERSION: "1.0.0"
+    CURRENT_PROJECT_VERSION: "1"
+    SUMUP_AFFILIATE_KEY: ""
+targets:
+  FSNKasse:
+    type: application
+    platform: iOS
+    sources:
+      - path: Sources
+      - path: Resources
+    dependencies:
+      - framework: ../SumUpSDK.xcframework
+        embed: true
+        codeSign: true
+    settings:
+      base:
+        PRODUCT_BUNDLE_IDENTIFIER: de.femboysupportnetwork.kasse
+        PRODUCT_NAME: FSNKasse
+        TARGETED_DEVICE_FAMILY: "1,2"
+        ASSETCATALOG_COMPILER_APPICON_NAME: AppIcon
+        ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME: AccentColor
+        ENABLE_BITCODE: NO
+        LD_RUNPATH_SEARCH_PATHS: "$(inherited) @executable_path/Frameworks"
+    info:
+      path: Generated/Info.plist
+      properties:
+        CFBundleDisplayName: FSN Kasse
+        CFBundleDevelopmentRegion: de
+        CFBundleShortVersionString: "$(MARKETING_VERSION)"
+        CFBundleVersion: "$(CURRENT_PROJECT_VERSION)"
+        LSRequiresIPhoneOS: true
+        ITSAppUsesNonExemptEncryption: false
+        UIUserInterfaceStyle: Light
+        UILaunchScreen:
+          UIColorName: LaunchBackground
+        UIRequiresFullScreen: true
+        UIRequiredDeviceCapabilities: [arm64]
+        UISupportedInterfaceOrientations: [UIInterfaceOrientationPortrait]
+        UISupportedInterfaceOrientations~ipad:
+          - UIInterfaceOrientationPortrait
+          - UIInterfaceOrientationPortraitUpsideDown
+          - UIInterfaceOrientationLandscapeLeft
+          - UIInterfaceOrientationLandscapeRight
+        NSBluetoothAlwaysUsageDescription: Die App verbindet sich per Bluetooth mit dem SumUp-Kartenleser.
+        NSBluetoothPeripheralUsageDescription: Die App verbindet sich per Bluetooth mit dem SumUp-Kartenleser.
+        NSLocationWhenInUseUsageDescription: SumUp braucht den Standort, um Kartenzahlungen sicher abzuwickeln.
+        SumUpAffiliateKey: "$(SUMUP_AFFILIATE_KEY)"
+schemes:
+  FSNKasse:
+    build:
+      targets:
+        FSNKasse: all
+    archive:
+      config: Release

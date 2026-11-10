@@ -1,0 +1,116 @@
+/* smartling.instruction_comments_enabled = on */
+
+"circuit_navigationHeader_addButton_title" = "Pievienot";
+
+"circuit_navigationHeader_backButton_title" = "Atpakaļ";
+
+"circuit_navigationHeader_cancelButton_title" = "Atcelt";
+
+"circuit_navigationHeader_chatButton_title" = "Tērzēt";
+
+"circuit_navigationHeader_closeButton_title" = "Aizvērt";
+
+"circuit_navigationHeader_deleteButton_title" = "Dzēst";
+
+"circuit_navigationHeader_discountButton_title" = "Piemērot atlaidi";
+
+"circuit_navigationHeader_documentButton_title" = "Dokuments";
+
+"circuit_navigationHeader_editButton_title" = "Rediģēt";
+
+"circuit_navigationHeader_editCategoriesButton_title" = "Rediģēt kategorijas";
+
+"circuit_navigationHeader_editCategories_title" = "Kategoriju rediģēšana";
+
+"circuit_navigationHeader_filterButton_title" = "Filtrēt";
+
+"circuit_navigationHeader_flashButton_off_title" = "Zibspuldze izslēgta";
+
+"circuit_navigationHeader_flashButton_on_title" = "Zibspuldze ieslēgta";
+
+"circuit_navigationHeader_helpButton_title" = "Palīdzība";
+
+"circuit_navigationHeader_hideButton_title" = "Paslēpt";
+
+"circuit_navigationHeader_historyButton_title" = "Vēsture";
+
+"circuit_navigationHeader_inboxButton_title" = "Iesūtne";
+
+"circuit_navigationHeader_mailButton_title" = "Pasts";
+
+"circuit_navigationHeader_minimizeButton_title" = "Samazināt";
+
+"circuit_navigationHeader_moreButton_title" = "Vairāk";
+
+"circuit_navigationHeader_printButton_title" = "Drukāt";
+
+"circuit_navigationHeader_refreshButton_title" = "Pārlādēt";
+
+"circuit_navigationHeader_reportButton_title" = "Ziņot";
+
+"circuit_navigationHeader_calendarButton_title" = "Kalendārs";
+
+"circuit_navigationHeader_saveButton_title" = "Saglabāt";
+
+"circuit_navigationHeader_scanBarcodeButton_title" = "Skenēt svītrkodu";
+
+"circuit_navigationHeader_scanButton_title" = "Skenēt";
+
+"circuit_navigationHeader_scanQRCodeButton_title" = "Skenēt QR kodu";
+
+"circuit_navigationHeader_searchButton_title" = "Meklēt";
+
+"circuit_navigationHeader_settingsButton_title" = "Iestatījumi";
+
+"circuit_navigationHeader_shareButton_title" = "Nosūtīt";
+
+"circuit_navigationHeader_showButton_title" = "Rādīt";
+
+"circuit_segmentedProgressBar_progress_accessibility_label" = "Progress";
+
+"circuit_segmentedProgressBar_progress_accessibility_value" = "%1$d. darbība no %2$d";
+
+"circuit_spinner_loading_accessibility_label" = "Notiek ielāde";
+
+"circuit_spinner_loading_accessibility_value" = "Procesā";
+
+"circuit_tierIndicator_plusTier_accessibilityLabel" = "Plus līmenis";
+
+"circuit_navigationHeader_archiveButton_title" = "Arhivēt";
+
+"circuit_barcodeScanner_instructionText_scanBarcode_title" = "Noskenē svītrkodu";
+
+"circuit_barcodeScanner_instructionText_scanBarcodeOrQRCode_title" = "Noskenē QR kodu vai svītrkodu";
+
+"circuit_barcodeScanner_instructionText_scanQRCode_title" = "Noskenē QR kodu";
+
+"circuit_textInput_guidance_optionalAnnotation" = " (nav obligāti)";
+
+"circuit_textInput_subtitle_characterCountValue" = "Rakstzīmes: %1$d/%2$d";
+
+"circuit_textInput_clearButton_accessibilityLabel" = "Skaidrs teksts";
+
+"circuit_textInput_validation_required_error" = "Ievadi vērtību";
+
+"circuit_textInput_validation_lengthMinimum_error" = "Ievadi vismaz šādu skaitu rakstzīmju: %1$d";
+
+"circuit_textInput_validation_lengthMaximum_error" = "Ievadi ne vairāk kā šādu skaitu rakstzīmju: %1$d";
+
+"circuit_textInput_validation_lengthExact_error" = "Ievadi precīzi šādu skaitu rakstzīmju: %1$d";
+
+"circuit_textInput_validation_lengthRange_error" = "Ievadītajam rakstzīmju skaitam jābūt no %1$d līdz %2$d";
+
+"circuit_textInput_validation_numericRange_error" = "Ievadi vērtību no %1$@ līdz %2$@";
+
+"circuit_textInput_validation_creditCard_error" = "Ievadi derīgu kartes numuru";
+
+"circuit_textInput_validation_allowedCharacterSet_error" = "Izmanto tikai atļautās rakstzīmes";
+
+"circuit_textInput_validation_equality_error" = "Vērtībām ir jābūt vienādām";
+
+"circuit_textInput_validation_predicate_error" = "Ievadi derīgu vērtību";
+
+"circuit_textInput_validation_regex_error" = "Ievadi tekstu pareizajā formātā";
+
+"circuit_navigationHeader_rewardsButton_title" = "Atlīdzības";
+

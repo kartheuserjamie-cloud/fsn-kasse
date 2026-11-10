@@ -1,0 +1,116 @@
+/* smartling.instruction_comments_enabled = on */
+
+"circuit_navigationHeader_addButton_title" = "Adicionar";
+
+"circuit_navigationHeader_backButton_title" = "Retroceder";
+
+"circuit_navigationHeader_cancelButton_title" = "Cancelar";
+
+"circuit_navigationHeader_chatButton_title" = "Chat";
+
+"circuit_navigationHeader_closeButton_title" = "Fechar";
+
+"circuit_navigationHeader_deleteButton_title" = "Eliminar";
+
+"circuit_navigationHeader_discountButton_title" = "Aplicar desconto";
+
+"circuit_navigationHeader_documentButton_title" = "Documento";
+
+"circuit_navigationHeader_editButton_title" = "Editar";
+
+"circuit_navigationHeader_editCategoriesButton_title" = "Editar categorias";
+
+"circuit_navigationHeader_editCategories_title" = "Editar categorias";
+
+"circuit_navigationHeader_filterButton_title" = "Filtrar";
+
+"circuit_navigationHeader_flashButton_off_title" = "Flash desligado";
+
+"circuit_navigationHeader_flashButton_on_title" = "Flash ligado";
+
+"circuit_navigationHeader_helpButton_title" = "Ajuda";
+
+"circuit_navigationHeader_hideButton_title" = "Ocultar";
+
+"circuit_navigationHeader_historyButton_title" = "Histórico";
+
+"circuit_navigationHeader_inboxButton_title" = "Caixa de entrada";
+
+"circuit_navigationHeader_mailButton_title" = "Correio";
+
+"circuit_navigationHeader_minimizeButton_title" = "Minimizar";
+
+"circuit_navigationHeader_moreButton_title" = "Mais";
+
+"circuit_navigationHeader_printButton_title" = "Imprimir";
+
+"circuit_navigationHeader_refreshButton_title" = "Atualizar";
+
+"circuit_navigationHeader_reportButton_title" = "Relatório";
+
+"circuit_navigationHeader_calendarButton_title" = "Calendário";
+
+"circuit_navigationHeader_saveButton_title" = "Salvar";
+
+"circuit_navigationHeader_scanBarcodeButton_title" = "Ler código de barras";
+
+"circuit_navigationHeader_scanButton_title" = "Procurar";
+
+"circuit_navigationHeader_scanQRCodeButton_title" = "Ler código QR";
+
+"circuit_navigationHeader_searchButton_title" = "Pesquisar";
+
+"circuit_navigationHeader_settingsButton_title" = "Definições";
+
+"circuit_navigationHeader_shareButton_title" = "Partilhar";
+
+"circuit_navigationHeader_showButton_title" = "Mostrar";
+
+"circuit_segmentedProgressBar_progress_accessibility_label" = "Progresso";
+
+"circuit_segmentedProgressBar_progress_accessibility_value" = "Passo %1$d de %2$d";
+
+"circuit_spinner_loading_accessibility_label" = "A carregar";
+
+"circuit_spinner_loading_accessibility_value" = "Em curso";
+
+"circuit_tierIndicator_plusTier_accessibilityLabel" = "Nível Plus";
+
+"circuit_navigationHeader_archiveButton_title" = "Arquivar";
+
+"circuit_barcodeScanner_instructionText_scanBarcode_title" = "Ler código de barras";
+
+"circuit_barcodeScanner_instructionText_scanBarcodeOrQRCode_title" = "Ler código QR ou código de barras";
+
+"circuit_barcodeScanner_instructionText_scanQRCode_title" = "Ler código QR";
+
+"circuit_textInput_guidance_optionalAnnotation" = " (opcional)";
+
+"circuit_textInput_subtitle_characterCountValue" = "%1$d/%2$d caracteres";
+
+"circuit_textInput_clearButton_accessibilityLabel" = "Limpar texto";
+
+"circuit_textInput_validation_required_error" = "Introduza um valor";
+
+"circuit_textInput_validation_lengthMinimum_error" = "Introduza pelo menos %1$d caracteres";
+
+"circuit_textInput_validation_lengthMaximum_error" = "Digite %1$d caracteres ou menos";
+
+"circuit_textInput_validation_lengthExact_error" = "Introduza exatamente %1$d caracteres";
+
+"circuit_textInput_validation_lengthRange_error" = "Digite entre %1$d e %2$d caracteres";
+
+"circuit_textInput_validation_numericRange_error" = "Digite um valor entre %1$@ e %2$@";
+
+"circuit_textInput_validation_creditCard_error" = "Introduza um número de cartão válido";
+
+"circuit_textInput_validation_allowedCharacterSet_error" = "Usar apenas caracteres permitidos";
+
+"circuit_textInput_validation_equality_error" = "Os valores devem coincidir";
+
+"circuit_textInput_validation_predicate_error" = "Introduza um valor válido";
+
+"circuit_textInput_validation_regex_error" = "Digite o texto no formato correto";
+
+"circuit_navigationHeader_rewardsButton_title" = "Recompensas";
+

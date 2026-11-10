@@ -1,0 +1,116 @@
+/* smartling.instruction_comments_enabled = on */
+
+"circuit_navigationHeader_addButton_title" = "Pridėti";
+
+"circuit_navigationHeader_backButton_title" = "Grįžti";
+
+"circuit_navigationHeader_cancelButton_title" = "Atšaukti";
+
+"circuit_navigationHeader_chatButton_title" = "Rašyti žinutę";
+
+"circuit_navigationHeader_closeButton_title" = "Uždaryti";
+
+"circuit_navigationHeader_deleteButton_title" = "Ištrinti";
+
+"circuit_navigationHeader_discountButton_title" = "Taikyti nuolaidą";
+
+"circuit_navigationHeader_documentButton_title" = "Dokumentas";
+
+"circuit_navigationHeader_editButton_title" = "Redaguoti";
+
+"circuit_navigationHeader_editCategoriesButton_title" = "Redaguoti kategorijas";
+
+"circuit_navigationHeader_editCategories_title" = "Redaguoti kategorijas";
+
+"circuit_navigationHeader_filterButton_title" = "Filtruoti";
+
+"circuit_navigationHeader_flashButton_off_title" = "Išjungti blykstę";
+
+"circuit_navigationHeader_flashButton_on_title" = "Įjungti blykstę";
+
+"circuit_navigationHeader_helpButton_title" = "Pagalba";
+
+"circuit_navigationHeader_hideButton_title" = "Nerodyti";
+
+"circuit_navigationHeader_historyButton_title" = "Istorija";
+
+"circuit_navigationHeader_inboxButton_title" = "Pašto dėžutė";
+
+"circuit_navigationHeader_mailButton_title" = "Paštas";
+
+"circuit_navigationHeader_minimizeButton_title" = "Sumažinti";
+
+"circuit_navigationHeader_moreButton_title" = "Daugiau";
+
+"circuit_navigationHeader_printButton_title" = "Spausdinti";
+
+"circuit_navigationHeader_refreshButton_title" = "Atnaujinti";
+
+"circuit_navigationHeader_reportButton_title" = "Ataskaita";
+
+"circuit_navigationHeader_calendarButton_title" = "Kalendorius";
+
+"circuit_navigationHeader_saveButton_title" = "Išsaugoti";
+
+"circuit_navigationHeader_scanBarcodeButton_title" = "Skenuoti brūkšninį kodą";
+
+"circuit_navigationHeader_scanButton_title" = "Skenuoti";
+
+"circuit_navigationHeader_scanQRCodeButton_title" = "Skenuoti QR kodą";
+
+"circuit_navigationHeader_searchButton_title" = "Ieškoti";
+
+"circuit_navigationHeader_settingsButton_title" = "Nustatymai";
+
+"circuit_navigationHeader_shareButton_title" = "Bendrinti";
+
+"circuit_navigationHeader_showButton_title" = "Rodyti";
+
+"circuit_segmentedProgressBar_progress_accessibility_label" = "Eiga";
+
+"circuit_segmentedProgressBar_progress_accessibility_value" = "%1$d žingsnis iš %2$d";
+
+"circuit_spinner_loading_accessibility_label" = "Įkeliama";
+
+"circuit_spinner_loading_accessibility_value" = "Vykdoma";
+
+"circuit_tierIndicator_plusTier_accessibilityLabel" = "„Plus“ pakopa";
+
+"circuit_navigationHeader_archiveButton_title" = "Archyvuoti";
+
+"circuit_barcodeScanner_instructionText_scanBarcode_title" = "Nuskenuokite brūkšninį kodą";
+
+"circuit_barcodeScanner_instructionText_scanBarcodeOrQRCode_title" = "Nuskenuokite QR kodą arba brūkšninį kodą";
+
+"circuit_barcodeScanner_instructionText_scanQRCode_title" = "Nuskenuokite QR kodą";
+
+"circuit_textInput_guidance_optionalAnnotation" = " (neprivaloma)";
+
+"circuit_textInput_subtitle_characterCountValue" = "%1$d iš %2$d ženklų";
+
+"circuit_textInput_clearButton_accessibilityLabel" = "Išvalyti tekstą";
+
+"circuit_textInput_validation_required_error" = "Įveskite vertę";
+
+"circuit_textInput_validation_lengthMinimum_error" = "Įveskite bent %1$d ženklus";
+
+"circuit_textInput_validation_lengthMaximum_error" = "Įveskite %1$d ar mažiau ženklų";
+
+"circuit_textInput_validation_lengthExact_error" = "Įveskite tiksliai tiek ženklų: %1$d";
+
+"circuit_textInput_validation_lengthRange_error" = "Įveskite nuo %1$d iki %2$d ženklų";
+
+"circuit_textInput_validation_numericRange_error" = "Įveskite vertę nuo %1$@ iki %2$@";
+
+"circuit_textInput_validation_creditCard_error" = "Įveskite teisingą kortelės numerį";
+
+"circuit_textInput_validation_allowedCharacterSet_error" = "Naudokite tik leistinus ženklus";
+
+"circuit_textInput_validation_equality_error" = "Vertės turi sutapti";
+
+"circuit_textInput_validation_predicate_error" = "Įveskite teisingą vertę";
+
+"circuit_textInput_validation_regex_error" = "Įveskite tekstą tinkamu formatu";
+
+"circuit_navigationHeader_rewardsButton_title" = "Atlygiai";
+

@@ -1,0 +1,275 @@
+/* Title shown in navigation bar for card reader screen in Options */
+"card_reader_setting" = "Pinapparaat";
+
+/* Shown for Brazilian users, with a card reader activation code beneath */
+"card_reader_setting_activate_model" = "Totaal/Super/Aan activeren";
+
+/* Label shown next to the toggle for enabling the card reader */
+"card_reader_setting_enable_generic" = "Laat uw klanten pinnen";
+
+/* For Brazilian users - label shown next to the toggle for enabling the card reader */
+"card_reader_setting_enable_model" = "Accept payments with Top / Solo";
+
+/* Label shown under the toggle for enabling the card reader */
+"card_reader_setting_enable_subtitle" = "Weergeven als betaalmethode tijdens afrekenen";
+
+/* Call to action text shown on the card that appears when the user has not configured any card reader yet */
+"card_reader_setting_no_reader_cta" = "Aan de slag met pasbetalingen";
+
+/* Call to action button on the card that appears when the user has not configured any card reader yet */
+"card_reader_setting_no_reader_cta_button" = "Pinapparaat koppelen";
+
+/* Call to action text shown on the card that appears when the user has not configured any card reader yet */
+"card_reader_setting_no_reader_cta_generic" = "Aan de slag met pasbetalingen";
+
+/* For Brazilian users - call to action text shown on the card that appears when the user has not configured any card reader yet */
+"card_reader_setting_no_reader_cta_model" = "Aan de slag met Top/Solo";
+
+/* Button to perform a bluetooth scan for card readers even though one or more card readers are already configured */
+"card_reader_setting_switch_card_readers" = "Ander pinapparaat gebruiken";
+
+/* Don not translate! */
+"sumup_btn_awb_scan" = "Scan opnieuw";
+
+/* PIN+ setup: Button text for making a phone call to support */
+"sumup_btn_call_support" = "Bel nu";
+
+"sumup_btn_cancel" = "Annuleren";
+
+/* Button to connect to a PIN+ reader in discovered readers screen */
+"sumup_btn_connect" = "Verbinding maken";
+
+/* Button text shown in the action bar for deleting a product */
+"sumup_btn_delete" = "Verwijderen";
+
+"sumup_btn_dismiss" = "Verwerpen";
+
+/* Synonym: Validate / Confirm */
+"sumup_btn_done" = "Klaar";
+
+"sumup_btn_edit" = "Bewerk";
+
+/* Title of a button shown after viewing the last onboarding slide in educational product catalog onboarding and finishing the onboarding (should be kept generic for usage in other contexts as well) */
+"sumup_btn_finish" = "Voltooien";
+
+"sumup_btn_go_to_support" = "Klantenservice bezoeken";
+
+/* Text of a button to dismiss a screen or a dialog and do something later */
+"sumup_btn_later" = "Later";
+
+"sumup_btn_new_set_up" = "Nieuwe configuratie";
+
+/* PIN+ setup: Button text to exit the setup process after success */
+"sumup_btn_next" = "Volgende";
+
+"sumup_btn_no" = "Nee";
+
+"sumup_btn_not_my_reader" = "Dit is niet mijn pinapparaat";
+
+"sumup_btn_ok" = "OK";
+
+/* Button shown on the signature screen once the customer has signed for the payment. */
+"sumup_btn_pay" = "Betalen";
+
+"sumup_btn_previous" = "Vorige";
+
+"sumup_btn_proceed" = "Verder";
+
+/* PIN+ setup: Button to restart a BTLE scan in discovered readers screen. Keep short */
+"sumup_btn_rescan" = "Scan opnieuw";
+
+/* Label of the Button which restries the FW update */
+"sumup_btn_retry" = "Opnieuw";
+
+"sumup_btn_scan" = "Scannen";
+
+/* Label of the button Send */
+"sumup_btn_send" = "Stuur";
+
+/* Label of the button Send to mobile */
+"sumup_btn_send_to_mobile" = "Verzenden naar mobiel";
+
+"sumup_btn_skip" = "Overslaan";
+
+/* Label for a button to switch mode (initially from pin+ audio to pin+ bluetooth) */
+"sumup_btn_switch" = "Switch now";
+
+"sumup_btn_tx_failed_try_again" = "Opnieuw proberen";
+
+"sumup_btn_update" = "Update";
+
+"sumup_btn_yes" = "Ja";
+
+"sumup_btn_yes_connect" = "Ja, verbinding maken";
+
+"sumup_btn_yes_scan" = "Ja, scannen";
+
+"sumup_card_reader_battery_level_label" = "Battery level";
+
+"sumup_card_reader_battery_level_percentage" = "%1$d%%";
+
+/* text for Card reader battery */
+"sumup_card_reader_battery_text" = "Batterij";
+
+/* text for Card reader Bluetooth software version */
+"sumup_card_reader_bluetooth_software_version_text" = "Bluetooth-software";
+
+/* text for Card reader page connect button */
+"sumup_card_reader_connect_button_text" = "Verbinding maken";
+
+/* Header text for card reader unable to connect dialog */
+"sumup_card_reader_error_dialog_header" = "Er kan geen verbinding worden gemaakt";
+
+/* Positive Button text for card reader unable to connect dialog */
+"sumup_card_reader_error_dialog_positive" = "Opnieuw proberen";
+
+/* Title text for card reader unable to connect dialog */
+"sumup_card_reader_error_dialog_title" = "Er kan geen verbinding worden gemaakt met het pinapparaat. Probeer het opnieuw.";
+
+"sumup_card_reader_hardware_version_text" = "Hardware";
+
+/* text for Card reader last three digits */
+"sumup_card_reader_last_digits_text" = "Laatste cijfers";
+
+"sumup_card_reader_low_battery" = "Low battery, please charge device";
+
+/* body for Card reader not saved */
+"sumup_card_reader_not_saved_body" = "Pinapparaat verbinden";
+
+/* title for Card reader not saved */
+"sumup_card_reader_not_saved_title" = "Aan de slag met pasbetalingen";
+
+/* Title for Card reader not saved Brazil */
+"sumup_card_reader_not_saved_title_br" = "An de slag met Top/Solo";
+
+/* text for Card reader serial number */
+"sumup_card_reader_serial_number_text" = "Serienummer";
+
+/* Title text for Card reader page toggle */
+"sumup_card_reader_setting_enable_generic" = "Betalingen met pinapparaat accepteren";
+
+/* Title text for Card reader page toggle for BR */
+"sumup_card_reader_setting_enable_generic_br" = "Betalingen accepteren met Top/Solo";
+
+/* Subtitle text for Card reader page */
+"sumup_card_reader_setting_enable_subtitle" = "Weergeven als betaalmethode tijdens afrekenen";
+
+/* text for Card reader page footer */
+"sumup_card_reader_setting_switch_card_readers" = "Overschakelen naar een ander pinapparaat";
+
+/* text for Card reader software version */
+"sumup_card_reader_software_version_text" = "Software";
+
+/* Button title to close current opened product on the Home Screen. */
+"sumup_home_close_btn" = "Sluiten";
+
+/* Description in the alert explaining the restart duration and impact on transactions */
+"sumup_hybrid_update_alert_description" = "Dat duurt ongeveer één minuut. Daarna kunt u weer zoals gebruikelijk transacties uitvoeren.";
+
+/* Label for the button to confirm and trigger the reader restart */
+"sumup_hybrid_update_alert_primary_button" = "Nu opnieuw opstarten";
+
+/* Label for the button to dismiss or postpone the reader restart */
+"sumup_hybrid_update_alert_secondary_button" = "Later";
+
+/* Title of the alert asking the user to restart the reader to complete the update process */
+"sumup_hybrid_update_alert_title" = "Start het pinapparaat opnieuw op en voltooi de update";
+
+/* Notification informing the user that the update was interrupted because the reader disconnected */
+"sumup_hybrid_update_notification_disconnection" = "De verbinding met uw pinapparaat is verbroken. Sluit dit opnieuw aan om de transactie te hervatten.";
+
+/* Notification informing the user that the reader is downloading an update while they continue working */
+"sumup_hybrid_update_notification_downloading" = "Uw pinapparaat is zichzelf aan het updaten. U kunt gewoon transacties blijven uitvoeren.";
+
+/* Notification informing the user that the update failed and a retry will be attempted */
+"sumup_hybrid_update_notification_error" = "Het pinapparaat kon niet worden bijgewerkt en probeert het opnieuw. Blijf echter gewoon verkopen.";
+
+/* Notification asking the user to wait while the reader is performing a restart */
+"sumup_hybrid_update_notification_restarting" = "Over één minuut start uw pinapparaat opnieuw op. U kunt binnenkort weer transacties uitvoeren.";
+
+/* Notification confirming that the card reader update was completed successfully */
+"sumup_hybrid_update_notification_success" = "Het updaten van uw pinapparaat is gelukt.";
+
+/* Description of Calculate cash change setting */
+"sumup_payment_setting_cash_calculation_at_checkout_description" = "Voer het ontvangen bedrag in en bereken de hoogte van het wisselgeld";
+
+/* Title of Calculate cash change setting */
+"sumup_payment_setting_cash_calculation_at_checkout_title" = "Wisselgeld berekenen";
+
+/* Subtitle of Cash management setting */
+"sumup_payment_setting_cash_management_subtitle" = "Track all cash movements in and out of your till and generate related reports.";
+
+/* Title of Cash management setting */
+"sumup_payment_setting_cash_management_title" = "Manage cash";
+
+"sumup_payment_setting_cash_payment" = "Contant";
+
+/* Label shown under the toggle for enabling cash payments */
+"sumup_payment_setting_cash_payment_footer" = "Weergeven als betaalmethode tijdens het afrekenen, zodat u contante betalingen kunt bijhouden.";
+
+/* Second label shown under the toggle for enabling cash payments */
+"sumup_payment_setting_cash_payment_footer_two" = "Voor contante betalingen gelden geen transactiekosten.";
+
+/* Label shown next to the toggle for enabling cash payments */
+"sumup_payment_setting_cash_payment_switch" = "Contante betalingen accepteren";
+
+/* Title shown in navigation bar for Cash Payment screen in Profile */
+"sumup_payment_setting_cash_payment_title" = "Contante betalingen";
+
+/* Placeholder text for the reader attribute not available */
+"sumup_reader_attribute_unknown" = "Onbekend";
+
+/* Label displayed when the App is attempting connecting to a card reader */
+"sumup_reader_connecting_text" = "Verbinding maken met pinapparaat";
+
+/* Title displayed when the App is attempting connecting to a card reader */
+"sumup_reader_connecting_title" = "Verbinding maken";
+
+/* Footer text of the reader Update state in card reader component */
+"sumup_reader_home_item_status_update" = "Apparaat bijwerken";
+
+"sumup_reader_not_found_message" = "We konden pinapparaat %1$@ niet vinden. Staat het aan en heeft u het binnen handbereik?";
+
+"sumup_reader_off_and_unplugged_message" = "Zorg dat het apparaat is uitgeschakeld en niet op de stroom is aangesloten.";
+
+"sumup_reader_off_and_unplugged_title" = "Kabel verwijderen en apparaat uitschakelen";
+
+/* Title showed during during reader transaction, typically after connection and potentially tip on device */
+"sumup_reader_payment" = "Betaling";
+
+/* Label displayed when payment was aborted by the client on a card reader (typically during tip on device, starting with SOLO) */
+"sumup_reader_payment_cancelled" = "Betaling is geannuleerd";
+
+/* Title of the button that opens the reader walkthrough from checkout. */
+"sumup_reader_walkthrough_button_title" = "Installatie kaartlezer";
+
+/* Title of the reader Inactive state in card reader component */
+"sumup_saved_reader_home_item_status_is_inactive" = "Inactief";
+
+/* Title of the reader Ready state in card reader component */
+"sumup_saved_reader_home_item_status_is_ready" = "Gereed";
+
+/* Message to confirm Text-to-Speech is activated */
+"sumup_text_to_speech_activation_message" = "Het apparaat staat in de toegankelijkheidsmodus. U wordt door de transactie geleid.";
+
+/* Text-to-Speech to report a failed transaction */
+"sumup_text_to_speech_failed_transaction" = "De transactie is niet geslaagd en de kaart is niet belast. Probeer het opnieuw.";
+
+/* Text-to-Speech to report a failed transaction for wrong PIN */
+"sumup_text_to_speech_failed_transaction_pin" = "De transactie is niet geslaagd omdat de ingevoerde pincode onjuist was. Probeer het opnieuw.";
+
+/* Text-to-Speech to introduce the transaction to the customer */
+"sumup_text_to_speech_reader_instructions" = "Het verschuldigde bedrag is %1$@ %2$@. Kies een van de volgende twee opties om te betalen. Als u contactloos wilt betalen, legt u uw kaart op de kaartlezer. Het apparaat zal één keer piepen wanneer uw kaart wordt herkend. Of betaal door je kaart met de chip eerst en naar boven gericht in de sleuf aan de bovenkant van de lezer te steken en volg de gesproken instructies.";
+
+/* Text-to-Speech to ask for PIN during a transaction using Solo Lite */
+"sumup_text_to_speech_solo_lite_pin_instructions" = "U moet uw pincode invoeren. Aan de voorkant van de lezer bevindt zich een afdekking met gaten om je te begeleiden. Er zijn tien gaten voor cijfers en drie voor functies. Druk op deze knoppen om uw pincode in te voeren. Een pieptoon volgt elk cijfer dat je invoert. De drie ronde gaten voor de functieknoppen bevinden zich in de meest rechtse kolom. Bovenaan bevindt zich de knop die de betaling zal annuleren. Daaronder bevindt zich de wis-knop, waarmee je meest recente invoer wordt verwijderd. En daaronder bevindt zich de bevestigingsknop. De cijfers op het toetsenblok bevinden zich in de drie meest linkse kolommen, die vierkante gaten hebben. Het toetsenbord heeft een telefoonindeling, waarbij de cijfers 1, 2 en 3 van links naar rechts bovenaan beginnen. Voer nu uw pincode in en druk op de bevestigingsknop.";
+
+/* Text-to-Speech to ask for PIN during a transaction using Solo */
+"sumup_text_to_speech_solo_pin_instructions" = "U moet uw pincode invoeren. Aan de voorkant van de lezer bevindt zich een afdekking met gaten om je te begeleiden. Er zijn tien gaten voor cijfers en drie voor functies. Druk op deze knoppen om uw pincode in te voeren. Een pieptoon volgt elk cijfer dat je invoert. De knop rechtsboven annuleert de betaling. Onder bevinden zich de cijfers 1 tot en met 9 in een telefoonindeling van drie rijen, beginnend met 1, 2 en 3 van links naar rechts bovenaan. In de 4e rij linksonder bevindt zich de knop 'Wissen', die je meest recente invoer verwijdert. Het cijfer nul staat in het midden van deze rij en de bevestigingsknop bevindt zich aan de rechterkant. Voer nu uw pincode in en druk op de bevestigingsknop.";
+
+/* Text-to-Speech to confirm transaction was successful */
+"sumup_text_to_speech_transaction_success" = "Transactie geslaagd. Verwijder de kaart alstublieft.";
+
+/* Text-to-Speech message when the entered PIN is wrong */
+"sumup_text_to_speech_wrong_pin" = "De pincode is onjuist. Probeer het opnieuw.";
+

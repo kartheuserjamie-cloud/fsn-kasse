@@ -1,0 +1,116 @@
+/* smartling.instruction_comments_enabled = on */
+
+"circuit_navigationHeader_addButton_title" = "Legg til";
+
+"circuit_navigationHeader_backButton_title" = "Tilbake";
+
+"circuit_navigationHeader_cancelButton_title" = "Avbryt";
+
+"circuit_navigationHeader_chatButton_title" = "Chat";
+
+"circuit_navigationHeader_closeButton_title" = "Lukk";
+
+"circuit_navigationHeader_deleteButton_title" = "Slett";
+
+"circuit_navigationHeader_discountButton_title" = "Registrer rabatt";
+
+"circuit_navigationHeader_documentButton_title" = "Bilag";
+
+"circuit_navigationHeader_editButton_title" = "Rediger";
+
+"circuit_navigationHeader_editCategoriesButton_title" = "Rediger kategorier";
+
+"circuit_navigationHeader_editCategories_title" = "Rediger kategorier";
+
+"circuit_navigationHeader_filterButton_title" = "Filtrer";
+
+"circuit_navigationHeader_flashButton_off_title" = "Blits av";
+
+"circuit_navigationHeader_flashButton_on_title" = "Blits på";
+
+"circuit_navigationHeader_helpButton_title" = "Hjelp";
+
+"circuit_navigationHeader_hideButton_title" = "Skjul";
+
+"circuit_navigationHeader_historyButton_title" = "Historikk";
+
+"circuit_navigationHeader_inboxButton_title" = "Innboks";
+
+"circuit_navigationHeader_mailButton_title" = "E-post";
+
+"circuit_navigationHeader_minimizeButton_title" = "Minimer";
+
+"circuit_navigationHeader_moreButton_title" = "Mer";
+
+"circuit_navigationHeader_printButton_title" = "Print";
+
+"circuit_navigationHeader_refreshButton_title" = "Oppdater";
+
+"circuit_navigationHeader_reportButton_title" = "Rapporter";
+
+"circuit_navigationHeader_calendarButton_title" = "Kalender";
+
+"circuit_navigationHeader_saveButton_title" = "Lagre";
+
+"circuit_navigationHeader_scanBarcodeButton_title" = "Skann strekkode";
+
+"circuit_navigationHeader_scanButton_title" = "Skann";
+
+"circuit_navigationHeader_scanQRCodeButton_title" = "Skann QR-kode";
+
+"circuit_navigationHeader_searchButton_title" = "Søk";
+
+"circuit_navigationHeader_settingsButton_title" = "Innstillinger";
+
+"circuit_navigationHeader_shareButton_title" = "Del";
+
+"circuit_navigationHeader_showButton_title" = "Vis";
+
+"circuit_segmentedProgressBar_progress_accessibility_label" = "Framgang";
+
+"circuit_segmentedProgressBar_progress_accessibility_value" = "Steg %1$d av %2$d";
+
+"circuit_spinner_loading_accessibility_label" = "Laster";
+
+"circuit_spinner_loading_accessibility_value" = "Pågår";
+
+"circuit_tierIndicator_plusTier_accessibilityLabel" = "Plus-nivå";
+
+"circuit_navigationHeader_archiveButton_title" = "Arkiver";
+
+"circuit_barcodeScanner_instructionText_scanBarcode_title" = "Skann strekkode";
+
+"circuit_barcodeScanner_instructionText_scanBarcodeOrQRCode_title" = "Skann QR-kode eller strekkode";
+
+"circuit_barcodeScanner_instructionText_scanQRCode_title" = "Skann QR-kode";
+
+"circuit_textInput_guidance_optionalAnnotation" = " (valgfritt)";
+
+"circuit_textInput_subtitle_characterCountValue" = "%1$d / %2$d tegn";
+
+"circuit_textInput_clearButton_accessibilityLabel" = "Klar tekst";
+
+"circuit_textInput_validation_required_error" = "Angi en verdi";
+
+"circuit_textInput_validation_lengthMinimum_error" = "Angi minst %1$d tegn";
+
+"circuit_textInput_validation_lengthMaximum_error" = "Angi %1$d tegn eller færre";
+
+"circuit_textInput_validation_lengthExact_error" = "Angi nøyaktig %1$d tegn";
+
+"circuit_textInput_validation_lengthRange_error" = "Angi mellom %1$d og %2$d tegn";
+
+"circuit_textInput_validation_numericRange_error" = "Angi en verdi mellom %1$@ og %2$@";
+
+"circuit_textInput_validation_creditCard_error" = "Oppgi et gyldig kortnummer";
+
+"circuit_textInput_validation_allowedCharacterSet_error" = "Bruk kun tillatte tegn";
+
+"circuit_textInput_validation_equality_error" = "Verdiene må samsvare";
+
+"circuit_textInput_validation_predicate_error" = "Angi en gyldig verdi";
+
+"circuit_textInput_validation_regex_error" = "Angi tekst i riktig format";
+
+"circuit_navigationHeader_rewardsButton_title" = "Belønninger";
+

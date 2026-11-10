@@ -1,0 +1,116 @@
+/* smartling.instruction_comments_enabled = on */
+
+"circuit_navigationHeader_addButton_title" = "Adăugă";
+
+"circuit_navigationHeader_backButton_title" = "Înapoi";
+
+"circuit_navigationHeader_cancelButton_title" = "Anulează";
+
+"circuit_navigationHeader_chatButton_title" = "Chat";
+
+"circuit_navigationHeader_closeButton_title" = "Închide";
+
+"circuit_navigationHeader_deleteButton_title" = "Șterge";
+
+"circuit_navigationHeader_discountButton_title" = "Aplică reducerea";
+
+"circuit_navigationHeader_documentButton_title" = "Document";
+
+"circuit_navigationHeader_editButton_title" = "Editează";
+
+"circuit_navigationHeader_editCategoriesButton_title" = "Editează categoriile";
+
+"circuit_navigationHeader_editCategories_title" = "Editează categoriile";
+
+"circuit_navigationHeader_filterButton_title" = "Filtrează";
+
+"circuit_navigationHeader_flashButton_off_title" = "Bliț dezactivat";
+
+"circuit_navigationHeader_flashButton_on_title" = "Bliț activat";
+
+"circuit_navigationHeader_helpButton_title" = "Asistență";
+
+"circuit_navigationHeader_hideButton_title" = "Ascunde";
+
+"circuit_navigationHeader_historyButton_title" = "Istoric";
+
+"circuit_navigationHeader_inboxButton_title" = "Inbox";
+
+"circuit_navigationHeader_mailButton_title" = "Poștă";
+
+"circuit_navigationHeader_minimizeButton_title" = "Minimizează";
+
+"circuit_navigationHeader_moreButton_title" = "Mai multe";
+
+"circuit_navigationHeader_printButton_title" = "Imprimă";
+
+"circuit_navigationHeader_refreshButton_title" = "Reîmprospătează";
+
+"circuit_navigationHeader_reportButton_title" = "Raport";
+
+"circuit_navigationHeader_calendarButton_title" = "Calendar";
+
+"circuit_navigationHeader_saveButton_title" = "Salvează";
+
+"circuit_navigationHeader_scanBarcodeButton_title" = "Scanează codul de bare";
+
+"circuit_navigationHeader_scanButton_title" = "Caută";
+
+"circuit_navigationHeader_scanQRCodeButton_title" = "Scanează codul QR";
+
+"circuit_navigationHeader_searchButton_title" = "Căutare";
+
+"circuit_navigationHeader_settingsButton_title" = "Setări";
+
+"circuit_navigationHeader_shareButton_title" = "Partajează";
+
+"circuit_navigationHeader_showButton_title" = "Afișează";
+
+"circuit_segmentedProgressBar_progress_accessibility_label" = "Progres";
+
+"circuit_segmentedProgressBar_progress_accessibility_value" = "Pasul %1$d din %2$d";
+
+"circuit_spinner_loading_accessibility_label" = "Se încarcă";
+
+"circuit_spinner_loading_accessibility_value" = "În curs";
+
+"circuit_tierIndicator_plusTier_accessibilityLabel" = "Nivelul Plus";
+
+"circuit_navigationHeader_archiveButton_title" = "Arhivează";
+
+"circuit_barcodeScanner_instructionText_scanBarcode_title" = "Scanează codul de bare";
+
+"circuit_barcodeScanner_instructionText_scanBarcodeOrQRCode_title" = "Scanează codul QR sau de bare";
+
+"circuit_barcodeScanner_instructionText_scanQRCode_title" = "Scanează codul QR";
+
+"circuit_textInput_guidance_optionalAnnotation" = " (opțional)";
+
+"circuit_textInput_subtitle_characterCountValue" = "%1$d / %2$d (de) caractere";
+
+"circuit_textInput_clearButton_accessibilityLabel" = "Șterge tot textul";
+
+"circuit_textInput_validation_required_error" = "Introdu o valoare";
+
+"circuit_textInput_validation_lengthMinimum_error" = "Introdu cel puțin %1$d (de) caractere";
+
+"circuit_textInput_validation_lengthMaximum_error" = "Introdu %1$d sau mai puține caractere";
+
+"circuit_textInput_validation_lengthExact_error" = "Introdu exact %1$d (de) caractere";
+
+"circuit_textInput_validation_lengthRange_error" = "Introdu între %1$d și %2$d (de) caractere";
+
+"circuit_textInput_validation_numericRange_error" = "Introdu o valoare între %1$@ și %2$@";
+
+"circuit_textInput_validation_creditCard_error" = "Introdu un număr de card valid";
+
+"circuit_textInput_validation_allowedCharacterSet_error" = "Utilizează doar caracterele permise";
+
+"circuit_textInput_validation_equality_error" = "Valorile trebuie să corespundă";
+
+"circuit_textInput_validation_predicate_error" = "Introdu o valoare validă";
+
+"circuit_textInput_validation_regex_error" = "Introdu text în formatul corect";
+
+"circuit_navigationHeader_rewardsButton_title" = "Recompense";
+
