@@ -55,8 +55,9 @@ jobs:
             CODE_SIGNING_ALLOWED=NO \
             CODE_SIGNING_REQUIRED=NO \
             CODE_SIGN_IDENTITY="" \
-            build | tee build/unsigned.log | grep -E "error:|warning: .*FSNKasse|BUILD (SUCCEEDED|FAILED)" || true
-          test -d build/unsigned/Build/Products/Release-iphoneos/FSNKasse.app
+            build > build/unsigned.log 2>&1 || { grep -E "error:" build/unsigned.log | sort -u; tail -n 30 build/unsigned.log; exit 1; }
+          grep -E "BUILD SUCCEEDED" build/unsigned.log
+          test -f build/unsigned/Build/Products/Release-iphoneos/FSNKasse.app/FSNKasse
           mkdir -p ../dist/Payload
           cp -R build/unsigned/Build/Products/Release-iphoneos/FSNKasse.app ../dist/Payload/
           (cd ../dist && zip -qry FSNKasse-unsigniert.ipa Payload && rm -rf Payload)
@@ -117,7 +118,7 @@ jobs:
             CODE_SIGN_IDENTITY="$IDENTITY" \
             PROVISIONING_PROFILE_SPECIFIER="$PROFILE_UUID" \
             OTHER_CODE_SIGN_FLAGS="--keychain $KEYCHAIN" \
-            archive | tee build/signed.log | grep -E "error:|ARCHIVE (SUCCEEDED|FAILED)" || true
+            archive > build/signed.log 2>&1 || { grep -E "error:" build/signed.log | sort -u; tail -n 30 build/signed.log; exit 1; }
           test -d build/FSNKasse.xcarchive
 
           cat > "$RUNNER_TEMP/ExportOptions.plist" <<EOF

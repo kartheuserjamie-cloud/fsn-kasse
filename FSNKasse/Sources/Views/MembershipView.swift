@@ -117,7 +117,7 @@ struct MembershipView: View {
                     }
                 }
 
-                FSNField(label: "Discord-Name (optional)", text: $form.discordName, placeholder: "z. B. maxmuster", capitalization: .never)
+                FSNField(label: "Discord-Name (optional)", text: $form.discordName, placeholder: "z. B. maxmuster", capitalization: .never, autocorrect: false)
             }
         }
     }

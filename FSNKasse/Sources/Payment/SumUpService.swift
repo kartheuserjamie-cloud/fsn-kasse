@@ -72,7 +72,7 @@ final class SumUpService: ObservableObject {
     /// Lets the SDK wake the card reader while the cart is being put together.
     func wakeReader() {
         guard isSetUp, SumUpSDK.isLoggedIn else { return }
-        SumUpSDK.prepareForCheckout { _, _ in }
+        SumUpSDK.prepare(forCheckout: { _, _ in })
     }
 
     func checkout(title: String, amount: Decimal, reference: String) async -> CheckoutOutcome {

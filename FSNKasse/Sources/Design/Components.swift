@@ -242,6 +242,7 @@ struct FSNField: View {
     var keyboard: UIKeyboardType = .default
     var contentType: UITextContentType? = nil
     var capitalization: TextInputAutocapitalization = .sentences
+    var autocorrect = true
     var invalid = false
 
     var body: some View {
@@ -255,7 +256,7 @@ struct FSNField: View {
                 .keyboardType(keyboard)
                 .textContentType(contentType)
                 .textInputAutocapitalization(capitalization)
-                .autocorrectionDisabled(keyboard == .emailAddress || capitalization == .never)
+                .autocorrectionDisabled(keyboard == .emailAddress || !autocorrect)
                 .padding(12)
                 .background(Color.white)
                 .clipShape(RoundedRectangle(cornerRadius: Theme.radius))

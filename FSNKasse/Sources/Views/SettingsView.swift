@@ -73,7 +73,8 @@ struct SettingsView: View {
                         label: "Affiliate-Key",
                         text: $store.settings.affiliateKeyOverride,
                         placeholder: "aus dem SumUp-Entwicklerportal",
-                        capitalization: .never
+                        capitalization: .never,
+                        autocorrect: false
                     )
                     Text("Den Key findest du im SumUp-Entwicklerportal unter Affiliate Keys. Dort muss auch die Bundle-ID dieser App eingetragen sein.")
                         .font(.fsn(13))
